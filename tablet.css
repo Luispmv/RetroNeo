@@ -30,7 +30,8 @@ nav .options a{
     height: 400px;
 }
 .hero-section div img{
-    top: 50%;
+    /*top_50%*/
+    top: 250px;
     left: 30%;
     height: 400px;
 }
