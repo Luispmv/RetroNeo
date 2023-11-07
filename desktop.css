@@ -35,7 +35,7 @@ nav .options{
 }
 
 .products-cards {
-    height: 140vh;
+    height: 880px;
 }
 .products-cards #card-center {
     width: 400px;
@@ -51,7 +51,7 @@ nav .options{
 }
 
 .categorias {
-    height: 275vh;
+    height: 1760px;
 }
 .categorias h1{
     font-size: 8rem;
