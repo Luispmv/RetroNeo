@@ -73,7 +73,7 @@ nav .options{
     max-width: 100%;
     height: auto;
     position: absolute;
-    top: 50%;
+    top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -301,7 +301,7 @@ footer a{
         margin-left: 0.5rem;
     }
     .hero-section div img {
-        top: 56%;
+        top: 280px;
     }
     .collection-class {
         height: 450px;
