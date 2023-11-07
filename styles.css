@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;500&display=swap');
+*{
+    --fuente:'Anybody', sans-serif;
+    --fuenteBold: 'Anybody', sans-serif;
+}
+body{
+    background: var(--Gradient-Purple, linear-gradient(180deg, #AD4881 53.67%, #EB9ECA 99.94%));
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    width: 90%;
+    padding: 10px 10px;
+    height: 60px;
+}
+nav .options{
+    display: none;
+}
+.pop-up-navegacion{
+    /*width: 270px;
+    height: 560px;*/
+    width: 60%;
+    height: 320px;
+    background-color: #AD4881;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    z-index: 4;
+}
+.pop-up-navegacion .close-section{
+    display: flex;
+    justify-content: right;
+    padding-right: 1rem;
+    margin-top: 15px;
+}
+.pop-up-navegacion .option-sections{
+    font-size: 25px;
+    color: white;
+    font-family: var(--fuente);
+}
+
+.hero-section{
+    height: 480px;
+    margin-left: 0.5rem;
+}
+.hero-section div h1{
+    font-family: var(--fuenteBold);
+    color: #FFF;
+    text-shadow: -4.863280773162842px 0px 0px #AD4881;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 1;
+}
+.hero-section div img{
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-section div h2{
+    font-family: var(--fuenteBold);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba( 255, 255, 255, 0 );; /* Color de relleno del texto */
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    -webkit-text-stroke: 0.1px white; /* Ancho y color del borde del texto (prefijo -webkit- para compatibilidad con algunos navegadores) */
+    text-stroke: 1px white;
+    position: absolute;
+    top: 90px;
+    z-index: 3;
+}
+.hero-section .cards-male{
+    display: none;
+}
+.collection-class{
+    background-image: url(./img/blond-woman.svg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 387px;
+    display: grid;
+    place-content: center;
+    gap: 2.5rem;
+}
+.collection-class h1{
+    color: rgba( 255, 255, 255, 0 );; /* Color de relleno del texto */
+    -webkit-text-stroke: 1px #AD4881; /* Ancho y color del borde del texto (prefijo -webkit- para compatibilidad con algunos navegadores) */
+    font-family: var(--fuenteBold);
+    font-size: 2rem;
+    transform: rotate(-20deg);
+}
+.collection-class a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: var(--fuente);
+    display: grid;
+    place-content: center;
+    height: 3rem;
+    background-color: #AD4881;
+    font-size: 1rem;
+}
+.slider {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+.slider .slider-track{
+    display: flex;
+    animation: scroll 1000s linear infinite;
+    -webkit-animation: scroll 1000s linear infinite;
+    width: calc(2916px * 6);
+}
+@keyframes scroll{
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(calc(2916px * 3));
+        transform: translateX(calc(-2916px * 3));
+    }
+}
+.products-cards{
+    width: 100vw;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.products-cards #card-center{
+    width: 400px;
+    height: 600px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.products-cards #card-center .card-image{
+    width: 100%;
+    height: 75%;
+    background-image: url(./img/Woman-center-card.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.products-cards #card-center h3{
+    font-family: var(--fuente);
+    font-size: 20px;
+    color: white;
+}
+.products-cards #card-center p{
+    font-family: var(--fuenteBold);
+    color: white;
+    font-size: 20px;
+}
+.products-cards #card-left{
+    width: 100px;
+    height: 500px;
+    align-self: center;
+    text-align: center;
+}
+.products-cards #card-left .card-image{
+    width: 100%;
+    height: 75%;
+    background-image: url(./img/ModelCardLeft.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.products-cards #card-left h3{
+    font-family: var(--fuente);
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+.products-cards #card-left p{
+    font-family: var(--fuenteBold);
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+.products-cards #card-right{
+    width: 100px;
+    height: 500px;
+    align-self: center;
+    text-align: center;
+}
+.products-cards #card-right .card-image{
+    width: 100%;
+    height: 75%;
+    background-image: url(./img/model-card-right.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.products-cards #card-right h3{
+    font-family: var(--fuente);
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+.products-cards #card-right p{
+    font-family: var(--fuenteBold);
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+.categorias{
+    height: 1960px;
+}
+.categorias h1{
+    text-align: start;
+    margin-left: 1rem;
+    font-family: var(--fuenteBold);
+    color: white;
+    font-size: 3rem;
+}
+.categorias .categorias-grid{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+.categorias .categorias-grid .categoria{
+    background-color: black;
+    width: 90%;
+    height: 400px;
+    /* background-position: center;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 23px;
+}
+footer img{
+    width: 10rem;
+}
+footer .info-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--fuente);
+}
+
+/*Samsung Galaxy S8*/
+@media(min-width:360px){
+    .hero-section div img{
+        top: 37%;
+    }
+    .collection-class{
+        height: 58vh;
+    }
+    .products-cards{
+        height: 130vh;
+    }
+    .categorias{
+        height: 1950px;
+    }
+    footer{
+        height: 55rem;
+    }
+}
+/*IPhone SE*/
+@media(min-width:375px){
+    .hero-section {
+        height: 80vh;
+        margin-left: 0.5rem;
+    }
+    .hero-section div img {
+        top: 56%;
+    }
+    .collection-class {
+        height: 450px;
+        gap: 4.5rem;
+    }
+    .products-cards{
+        height: 650px;
+    }
+    .categorias{
+        height: 1930px;
+    }
+}
+/*IPhone 12Pro*/
+@media(min-width:390px){
+    .hero-section{
+        height: 50vh;
+    }
+    .hero-section div img{
+        top: 34%;
+    }
+    .collection-class{
+        height: 55vh; 
+    }
+    .products-cards{
+        height: 80vh;
+    }
+    .categorias{
+        height: 230vh;
+    }
+}
+
+/*Samsiung Galaxy S20 ultra*/
+@media(min-width:412px){
+    .hero-section div img{
+        top: 33%;
+    }
+    .collection-class{
+        height: 54vh;
+    }
+    .products-cards{
+        height: 75vh;
+    }
+}
+
+/*IPhone XR*/
+@media(min-width:414px){
+    .hero-section div img{
+        top: 34%;
+    }
+    .collection-class{
+        height: 56vh;
+    }
+    .products-cards{
+        height: 80vh;
+    }
+    .categorias{
+        height: 220vh;
+    }
+}
+
+@media(min-width:425px){
+    .hero-section{
+        height: 80vh;
+    }
+    .hero-section div img {
+        top: 62%;
+    }
+    .collection-class{
+        height: 80vh;
+    }
+    .products-cards{
+        height: 650px;
+    }
+    .categorias{
+        height: 1900px;
+    }
+}
+
+

@@ -1,0 +1,76 @@
+body{
+    overflow-x: hidden;
+}
+
+header{
+    height: 150px;
+}
+
+nav .options{
+    gap: 4rem;
+}
+
+.hero-section div img {
+    height: 680px;
+    top: 50%;
+}
+.hero-section div h1{
+    font-size: 90px;
+}
+.hero-section div h2{
+    font-size: 90px;
+    top: 150px;
+}
+.hero-section .cards-male .card-one{
+    width: 200px;
+    height: 300px;
+}
+.hero-section .cards-male .card-two{
+    width: 150px;
+    height: 250px;
+}
+
+.collection-class {
+    height: 160vh;
+}
+
+.products-cards {
+    height: 140vh;
+}
+.products-cards #card-center {
+    width: 400px;
+    height: 800px;
+}
+.products-cards #card-right {
+    width: 300px;
+    height: 710px;
+}
+.products-cards #card-left {
+    width: 300px;
+    height: 710px;
+}
+
+.categorias {
+    height: 275vh;
+}
+.categorias h1{
+    font-size: 8rem;
+}
+.categorias .categorias-grid{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+}
+.categorias .categorias-grid .categoria {
+    height: 600px;
+}
+
+@media(min-width:1140px){
+    .hero-section div img {
+        height: 680px;
+        top: 60%;
+    }
+    .collection-class{
+        height: 200vh;
+    }
+}
