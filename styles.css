@@ -130,6 +130,10 @@ nav .options{
     background-color: #AD4881;
     font-size: 1rem;
 }
+.collection-class a:hover{
+    background-color: white;
+    color: #AD4881;
+}
 .slider {
     width: 100%;
     height: auto;
@@ -283,4 +287,6 @@ footer a{
     color: white;
     font-family: var(--fuente);
 }
-
+footer a:hover{
+    color: #AD4881;
+}
