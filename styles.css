@@ -49,9 +49,18 @@ nav .options{
     margin-top: 15px;
 }
 .pop-up-navegacion .option-sections{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     font-size: 25px;
     color: white;
     font-family: var(--fuente);
+    padding-right: 25px;
+    line-height: 50px;
+}
+.pop-up-navegacion .option-sections a{
+    text-decoration: none;
+    color: white;
 }
 
 .hero-section{
@@ -97,8 +106,8 @@ nav .options{
 .collection-class{
     background-image: url(./img/blond-woman.svg); 
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 387px;
+    background-size: cover;
+    height: 500px;
     display: grid;
     place-content: center;
     gap: 2.5rem;
@@ -231,7 +240,7 @@ nav .options{
 }
 
 .categorias{
-    height: 1960px;
+    height: 1909px;
 }
 .categorias h1{
     text-align: start;
