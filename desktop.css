@@ -66,12 +66,8 @@ nav .options{
     height: 600px;
 }
 
-@media(min-width:1140px){
-    .hero-section div img {
-        height: 680px;
-        top: 60%;
-    }
-    .collection-class{
-        height: 200vh;
+@media(min-width:1440px){
+    .categorias{
+        height: 1632px;
     }
 }
