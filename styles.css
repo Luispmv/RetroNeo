@@ -55,7 +55,7 @@ nav .options{
 }
 
 .hero-section{
-    height: 480px;
+    height: 320px;
     margin-left: 0.5rem;
 }
 .hero-section div h1{
@@ -70,8 +70,7 @@ nav .options{
 }
 .hero-section div img{
     z-index: 2;
-    max-width: 100%;
-    height: auto;
+    width: 320px;
     position: absolute;
     top: 250px;
     left: 50%;
@@ -275,109 +274,4 @@ footer a{
     color: white;
     font-family: var(--fuente);
 }
-
-/*Samsung Galaxy S8*/
-@media(min-width:360px){
-    .hero-section div img{
-        top: 37%;
-    }
-    .collection-class{
-        height: 58vh;
-    }
-    .products-cards{
-        height: 130vh;
-    }
-    .categorias{
-        height: 1950px;
-    }
-    footer{
-        height: 55rem;
-    }
-}
-/*IPhone SE*/
-@media(min-width:375px){
-    .hero-section {
-        height: 80vh;
-        margin-left: 0.5rem;
-    }
-    .hero-section div img {
-        top: 280px;
-    }
-    .collection-class {
-        height: 450px;
-        gap: 4.5rem;
-    }
-    .products-cards{
-        height: 650px;
-    }
-    .categorias{
-        height: 1930px;
-    }
-}
-/*IPhone 12Pro*/
-@media(min-width:390px){
-    .hero-section{
-        height: 50vh;
-    }
-    .hero-section div img{
-        top: 34%;
-    }
-    .collection-class{
-        height: 55vh; 
-    }
-    .products-cards{
-        height: 80vh;
-    }
-    .categorias{
-        height: 230vh;
-    }
-}
-
-/*Samsiung Galaxy S20 ultra*/
-@media(min-width:412px){
-    .hero-section div img{
-        top: 33%;
-    }
-    .collection-class{
-        height: 54vh;
-    }
-    .products-cards{
-        height: 75vh;
-    }
-}
-
-/*IPhone XR*/
-@media(min-width:414px){
-    .hero-section div img{
-        top: 34%;
-    }
-    .collection-class{
-        height: 56vh;
-    }
-    .products-cards{
-        height: 80vh;
-    }
-    .categorias{
-        height: 220vh;
-    }
-}
-
-@media(min-width:425px){
-    .hero-section{
-        height: 80vh;
-    }
-    .hero-section div img {
-        top: 62%;
-    }
-    .collection-class{
-        height: 80vh;
-    }
-    .products-cards{
-        height: 650px;
-    }
-    .categorias{
-        height: 1900px;
-    }
-}
-
 

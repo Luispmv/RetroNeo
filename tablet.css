@@ -34,6 +34,7 @@ nav .options a{
     top: 250px;
     left: 30%;
     height: 400px;
+    width: 340px;
 }
 .hero-section div h1{
     text-align: start;
@@ -140,40 +141,3 @@ footer a {
 }
 
 
-
-/*IPad Air*/
-@media(min-width:820px){
-    .hero-section{
-        height: 400px;
-    }
-    .hero-section div img{
-        top: 22%;
-    }
-    .collection-class{
-        height: 84vh;
-    }
-    .products-cards{
-        height: 80vh;
-    }
-    .categorias{
-        height: 3900px;
-    }
-    footer{
-        height: 65rem;
-    }
-}
-
-@media(min-width:930px){
-    .hero-section div img{
-        top: 50%;
-    }
-    .collection-class{
-        height: 150vh;
-    }
-    .products-cards{
-        height: 150vh;
-    }
-    footer{
-        height: 30rem;
-    }
-}

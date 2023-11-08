@@ -11,8 +11,9 @@ nav .options{
 }
 
 .hero-section div img {
-    height: 680px;
-    top: 50%;
+    width: 500px;
+    height: 500px;
+    top: 330px;
 }
 .hero-section div h1{
     font-size: 90px;
