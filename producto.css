@@ -160,6 +160,10 @@ button span{
     height: 100%;
     font: bolder;
 }
+.tallas button:hover{
+    background-color: #EB9ECA;
+    color: white;
+}
 #boton-compra{
     background-color: #AD4881;
     border: none;
@@ -222,5 +226,8 @@ button span{
     }
     .descripcion-producto p {
         font-size: 2rem;
+    }
+    .usuario-opciones{
+        gap: 20px;
     }
 }
