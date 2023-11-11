@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;500&display=swap');
+*{
+    --fuente:'Anybody', sans-serif;
+    --fuenteBold: 'Anybody', sans-serif; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    height: 80px;
+    position: absolute;
+}
+a img{
+    width: 80px;
+    z-index: 2;
+    margin-left: 20px;
+}
+.carousel{
+    background-image: url(./img/RetroProductbackground.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    /*position: relative;*/
+    position: absolute;
+    top: 0;
+    display: grid;
+    place-content: center;
+}
+.carousel-inner{
+    place-self: center;
+    width: 100% !important;
+}
+.carousel-item{
+    display: flex;
+}
+
+.carousel-item img{
+    width: 300px;
+}
+.carousel-indicators button{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50% !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #AD4881 !important;
+}
+.carousel-control-next-icon {
+    background-image: url(./img/movement-arrow.svg)!important;
+}
+.carousel-control-prev-icon {
+    background-image: url(./img/movement-arrow.svg)!important;
+    transform: rotate(180deg);
+}
+button span{
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.25);
+}
+.informacion-producto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.info-usuario{
+    display: flex;
+    justify-content: space-between;
+}
+.info-usuario h1{
+    font-family: var(--fuenteBold);
+    color: #EB9ECA;
+    margin: 0;
+    font-size: 40px;
+}
+.info-usuario button{
+    background-color: #EB9ECA;
+    border: none;
+    color: white;
+    font-family: var(--fuenteBold);
+    height: 30px;
+    align-self: center;
+}
+.descripcion-producto{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;
+    gap: 60px;*/
+}
+.descripcion-producto p{
+    margin: 0 !important;
+    font-size: 18px;
+    font-family: var(--fuente);
+}
+.descripcion-producto button{
+    height: 30px;
+    background-color: #EB9ECA;
+    border: none;
+    color: white;
+    font-family: var(--fuenteBold);
+    align-self: center;
+}
+.usuario-opciones{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.color-botons{
+    display: flex;
+    gap: 15px;
+}
+.color-botons .botonColor{
+    width: 30px;
+    height: 30px;
+}
+.color-botons #color1{
+    background-color: #AD4881;
+    border: none;
+    border-radius: 50%;
+}
+.color-botons #color2{
+    background-color: #F84845;
+    border: none;
+    border-radius: 50%;
+}
+.color-botons #color3{
+    background-color: #34B767;
+    border: none;
+    border-radius: 50%;
+}
+.color-botons #color4{
+    background-color: #2174F4;
+    border: none;
+    border-radius: 50%;
+}
+.tallas{
+    width: 80%;
+    height: 50px;
+}
+.tallas button{
+    border: #EB9ECA solid;
+    background-color: white;
+    color: #EB9ECA;
+    width: 20%;
+    height: 100%;
+    font: bolder;
+}
+#boton-compra{
+    background-color: #AD4881;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: var(--fuente);
+    height: 70px;
+}
+
+@media(min-width:768px){
+    .carousel{
+        height: 500px;
+    }
+    .carousel-item img {
+        width: 450px;
+    }
+    .info-usuario h1{
+        font-size: 5rem;
+    }
+    .info-usuario button{
+        height: 45px;
+        font-size: 2rem;
+    }
+    .descripcion-producto p{
+        font-size: 1.5rem;
+    }
+    .descripcion-producto button{
+        height: 45px;
+        font-size: 2rem;
+    }
+    .tallas {
+        width: 50%;
+        height: 80px;
+        font-size: 2rem;
+    }
+    #boton-compra{
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+@media(min-width:1024px){
+    body{
+        display: flex;
+        flex-direction: row;
+    }
+    .carousel{
+        width: 50%;
+        height: 100vh;
+    }
+    .informacion-producto{
+        display: grid;
+        place-content: center;
+        gap: 30px;
+        width: 50%;
+    }
+    .descripcion-producto p {
+        font-size: 2rem;
+    }
+}
