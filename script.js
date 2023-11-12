@@ -11,10 +11,10 @@ var swiper = new Swiper(".mySwiper",{
         rotate: 0,
         stretch:0
     },
-    // autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false 
-    // }
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false 
+    }
 })
 
 var menu = document.getElementById("menu-anchor");
