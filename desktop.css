@@ -38,17 +38,9 @@ nav .options{
 .products-cards {
     height: 880px;
 }
-.products-cards #card-center {
-    width: 400px;
-    height: 800px;
-}
-.products-cards #card-right {
+.swiper-slide{
     width: 300px;
-    height: 710px;
-}
-.products-cards #card-left {
-    width: 300px;
-    height: 710px;
+    height: 750px;
 }
 
 .categorias {

@@ -88,41 +88,8 @@ nav .options a{
     place-self: center;
 }
 .products-cards {
-    height: 770px;
+    height: 675px;
 }
-.products-cards #card-center{
-    width: 300px;
-    height: 720px;
-}
-.products-cards #card-center h3{
-    font-size: 30px;
-}
-.products-cards #card-center p{
-    font-size: 30px;
-}
-
-.products-cards #card-left{
-    width: 200px;
-    height: 600px;
-}
-.products-cards #card-left h3{
-    font-size: 30px;
-}
-.products-cards #card-left p{
-    font-size: 30px;
-}
-
-.products-cards #card-right{
-    width: 200px;
-    height: 600px;
-}
-.products-cards #card-right h3{
-    font-size: 30px;
-}
-.products-cards #card-right p{
-    font-size: 30px;
-}
-
 .categorias {
     height: 3820px;
 }
