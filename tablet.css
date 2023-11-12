@@ -13,7 +13,7 @@ nav #menu-anchor{
 }
 nav .options{
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
     margin-right: 1rem;
 }
 nav .options a{

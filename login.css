@@ -151,4 +151,7 @@ input[type="password"]:focus {
         width: 50%;
         margin: 15px;
     }
+    .botonIniciarSesion{
+        font-size: 1.5rem;
+    }
 }
