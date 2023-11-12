@@ -1,3 +1,7 @@
+var slide = document.getElementById("Swimper")
+window.addEventListener('load', function() {
+    slide.style.perspective = "2000px"
+});
 var swiper = new Swiper(".mySwiper",{
     effect: "coverflow",
     grabCursor: true,
