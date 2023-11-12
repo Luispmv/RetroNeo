@@ -1,6 +1,6 @@
 var slide = document.getElementById("Swimper")
 window.addEventListener('load', function() {
-    slide.style.perspective = "2000px"
+    slide.style.perspective = "4500px"
 });
 var swiper = new Swiper(".mySwiper",{
     effect: "coverflow",

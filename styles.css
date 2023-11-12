@@ -169,14 +169,15 @@ nav .options{
     width:250px;
     height: 600px;
     background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(150px);
+    backdrop-filter: blur(1500px); 
     text-align: center;
     color: white;
 }
 .swiper-slide img{
     height: 75%;
-    padding:10px;
     object-fit: cover;
+    width: 100%;
+    align-self: center;
 }
 .swiper_slide #p{
     margin: 0px;
@@ -195,6 +196,11 @@ nav .options{
     margin-bottom: 10px;
     color: white;
     font-size: 1.5rem;
+}
+.swiper-slide button:hover{
+    background-color: white;
+    color: #AD4881;
+    cursor: pointer;
 }
 .categorias{
     height: 1909px;
