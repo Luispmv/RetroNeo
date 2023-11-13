@@ -1,3 +1,4 @@
+AOS.init();
 var slide = document.getElementById("Swimper")
 window.addEventListener('load', function() {
     slide.style.perspective = "4500px"

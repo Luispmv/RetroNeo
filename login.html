@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesion</title>
     <link rel="icon" href="./img/RetroIcon.svg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./login.css">
 </head>
 <body>
-    <div class="fotoInicioSesion"></div>
+    <div class="fotoInicioSesion" data-aos="fade-right"></div>
     <!-- <img src="./img/Womanlogin.svg" alt="" style="display: none;" id="mujerinicioSesion"> -->
-    <section class="seccionInicioSesion">
+    <section class="seccionInicioSesion" data-aos="fade-left">
         <a href="./index.html"><img src="./img/RetrologoFooter.svg" alt=""></a>
         <div class="contenido">
             <h1>Iniciar Sesion</h1>
@@ -33,5 +34,9 @@
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

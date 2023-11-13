@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RetroNeo</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="./img/RetroIcon.svg">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./tablet.css" media="(min-width: 768px)">
     <link rel="stylesheet" href="./desktop.css" media="(min-width: 1024px)">
 </head>
-<body>
+<body data-aos="fade-down">
     <header>
         <nav>
             <a href=""><img src="./img/RetroNeo.svg" alt=""></a>
@@ -48,7 +49,7 @@
             <div class="card-two"></div>
         </div>
     </section>
-    <section class="collection-class">
+    <section class="collection-class" data-aos="fade-right">
         <h1>Coleccion <br> otoño-invierno</h1>
         <a href="">Ver coleccion</a>
     </section>
@@ -65,7 +66,7 @@
             </div>
         </div>
     </div>
-    <section class="products-cards">
+    <section class="products-cards" data-aos="fade-down">
         <div class="swiper mySwiper" style="padding-top: 20px;" id="Swimper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -126,23 +127,23 @@
         </div>
     </section>
     <section class="categorias">
-        <h1>Encuentra lo que estas buscando</h1>
+        <h1 data-aos="fade-right">Encuentra lo que estas buscando</h1>
         <div class="categorias-grid">
-            <div class="categoria" style="background-image: url(./img/CardManCategory.svg);">
+            <div class="categoria" style="background-image: url(./img/CardManCategory.svg);" data-aos="fade-right">
             </div>
-            <div class="categoria" style="background-image: url(./img/CardWomanCategory.svg);">
+            <div class="categoria" style="background-image: url(./img/CardWomanCategory.svg);" data-aos="fade-left">
                 <h2>Mujer</h2>
             </div>
-            <div class="categoria" style="background-image: url(./img/RopaDeportivaCARD.svg);">
+            <div class="categoria" style="background-image: url(./img/RopaDeportivaCARD.svg);" data-aos="fade-right">
                 <h2>Ropa deportiva</h2>
             </div>
-            <div class="categoria" style="background-image: url(./img/SneakersCategory.svg);">
+            <div class="categoria" style="background-image: url(./img/SneakersCategory.svg);" data-aos="fade-left">
                 <h2>Sneakers</h2>
             </div>
         </div>
     </section>
     </main>
-    <footer>
+    <footer data-aos="fade-up">
     <img src="./img/RetrologoFooter.svg" alt="" loading="lazy">
     <div class="info-footer">
         <a href="">Sobre nosotros</a>
@@ -154,6 +155,9 @@
     </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="./script.js"></script>
 </body>
 </html>

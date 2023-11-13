@@ -1,3 +1,5 @@
+AOS.init();
+
 var backgroundProducts = document.getElementsByClassName("carousel"); // Obtiene una colección de elementos
 var botonColor1 = document.getElementById("color1");
 var botonColor2 = document.getElementById("color2");
