@@ -65,7 +65,7 @@ nav .options{
 
 .hero-section{
     height: 320px;
-    margin-left: 0.5rem;
+    padding-left: 0.5rem;
 }
 .hero-section div h1{
     font-family: var(--fuenteBold);
