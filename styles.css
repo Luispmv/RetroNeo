@@ -168,9 +168,7 @@ nav .options{
     flex-direction: column;
     width:250px;
     height: 600px;
-    background-color: #EB9ECA;
-    /* background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(15px);  */
+    background-color: black;
     text-align: center;
     color: white;
 }
