@@ -59,6 +59,11 @@ nav .options{
 }
 
 @media(min-width:1440px){
+    .hero-section div img{
+        width: 600px;
+        height: 600px;
+        top: 350px;
+    }
     .categorias{
         height: 1632px;
     }
