@@ -95,6 +95,9 @@ input[type="password"]:focus {
     font-family: var(--fuente);
     color: white;
 }
+.seccionInicioSesion .contenido-autentificacion .enviar-datos #botonIniciarSesion:hover{
+    background-color: #A24881;
+}
 .enviar-datos .redes-sociales{
     display: flex;
     flex-direction: column;
@@ -131,6 +134,7 @@ input[type="password"]:focus {
     }
     .seccionInicioSesion .contenido-autentificacion .enviar-datos #botonIniciarSesion{
         width: 70%;
+        font-size: 1.5rem;
     }
 }
 @media(min-width:1024px){
@@ -153,8 +157,5 @@ input[type="password"]:focus {
         justify-content: center;
         width: 50%;
         margin: 15px;
-    }
-    .botonIniciarSesion{
-        font-size: 1.5rem;
     }
 }
