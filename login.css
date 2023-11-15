@@ -25,7 +25,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    /* gap: 50px; */
 }
 .seccionInicioSesion .contenido h1{
     color: #EB9ECA;
@@ -43,7 +43,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    /* gap: 20px; */
     width: 100%;
 }
 .email-contraseña input{
@@ -59,6 +59,7 @@ body{
 }
 .email-contraseña input::placeholder{
     color: black;
+    opacity: 0.5;
 }
 input[type="email"]:focus {
     outline: none;
@@ -73,11 +74,11 @@ input[type="password"]:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 5px;
 }
 .seccionInicioSesion .contenido-autentificacion .enviar-datos #forgot-password{
     display: flex;
-    gap: 60px;
+    /* gap: 60px; */
     color: #EB9ECA;
     font-family: var(--fuente);
     place-self: center;
@@ -145,8 +146,11 @@ input[type="password"]:focus {
         background-size: cover;
         background-repeat: no-repeat;
         width: 50%;
+        height: 100vh;
     }
     .seccionInicioSesion{
+        display: flex;
+        justify-content: center;
         width: 50%;
         margin: 15px;
     }
