@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 0px;
 }
 .seccionInicioSesion img{
     width: 165px;
@@ -74,7 +74,7 @@ input[type="password"]:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 0px;
 }
 .seccionInicioSesion .contenido-autentificacion .enviar-datos #forgot-password{
     display: flex;
@@ -99,7 +99,7 @@ input[type="password"]:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 0px;
 }
 .enviar-datos .redes-sociales p{
     color: #EB9ECA;
