@@ -218,17 +218,26 @@ nav .options{
 .contenedorCategoria{
     width: 90%;
     height: 400px;
-    background-color: black;
+    background-image: url(./img/fondoRetro.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     place-self: center;
 }
 .contenedorCategoria:hover{
-    background-color: white;
+    background-color: black;
+    background-image: url(./img/RetroBackgroundCategoriasWhite.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-self: center;
+    -webkit-text-stroke: 1px white;
 } 
 .contenedorCategoria a{
     text-decoration: none;
 }
 .contenedorCategoria .textoContenedor{
-    color: white;
+    color: #AD4881;
     text-align: center;
     height: 25%;
     font-size: 3rem;
@@ -236,8 +245,6 @@ nav .options{
     justify-content: center;
     align-items: center;
     font-weight: bolder;
-    color: rgba( 255, 255, 255, 0 );
-    -webkit-text-stroke: 1px #AD4881;
     font-size: 2.5rem;
     font-family: var(--fuente);
 }

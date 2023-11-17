@@ -33,6 +33,3 @@ menu.addEventListener("click", function() {
 icono_cerrar.addEventListener("click", function() {
     menu_lateral.style.display = "none";
 });
-
-
-
