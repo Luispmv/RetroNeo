@@ -90,12 +90,20 @@ nav .options a{
 .products-cards {
     height: 675px;
 }
-.categorias {
-    height: 3820px;
+
+.categorias{
+    height: 860px;
 }
-.categorias .categorias-grid .categoria{
-    width: 95%;
-    height: 890px;
+
+.categorias .categorias-columnas{
+    flex-direction: row;
+    justify-content: center;
+}
+.contenedorCategoria{
+    width: 45%;
+}
+.contenedorCategoria .imagenContainer img{
+    object-fit: contain;
 }
 
 footer{

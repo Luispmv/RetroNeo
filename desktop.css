@@ -43,19 +43,8 @@ nav .options{
     height: 750px;
 }
 
-.categorias {
-    height: 1631px;
-}
-.categorias h1{
-    font-size: 8rem;
-}
-.categorias .categorias-grid{
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-    gap: 30px;
-}
-.categorias .categorias-grid .categoria {
-    height: 600px;
+.contenedorCategoria .textoContenedor{
+    font-size: 3.5rem;
 }
 
 @media(min-width:1440px){
@@ -63,8 +52,5 @@ nav .options{
         width: 600px;
         height: 600px;
         top: 350px;
-    }
-    .categorias{
-        height: 1632px;
     }
 }
