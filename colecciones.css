@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;500&display=swap');
+*{
+    --fuente:'Anybody', sans-serif;
+    --fuenteBold: 'Anybody', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 400px;
+    background-image: url(./img/Collection-hero-img.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header nav{
+    height: 25%;
+    padding: 5px;
+}
+header div{
+    height: 75%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: var(--fuente);
+    color: #AD4881;
+    font-weight: bolder;
+}
+.barra-opciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    font-family: var(--fuente);
+    height: 400px;
+    padding-left: 1px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+.barra-opciones .categorias-ropa{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.barra-opciones .categorias-ropa .ropaCasual{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.ropaCasual h1{
+    display: flex;
+    gap: 10px;
+}
+.ropaCasual .ropaCasualwrapper{
+    width: 100%;
+    gap: 3px;
+}
+.ropaCasual button{
+    width: 19%;
+    height: 40px;
+    border: none;
+    background: #AD4881;
+    color: white;
+    font-size: 0.8rem;
+}
+.ropaCasual button:hover{
+    background-color: #680e41;
+}
+
+.barra-opciones .categorias-ropa .ropaDeportiva{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.ropaDeportiva h1{
+    display: flex;
+    gap: 10px;
+}
+.ropaDeportiva .ropaDeportivawrapper{
+    width: 100%;
+    gap: 3px;
+}
+.ropaDeportiva button{
+    width: 19%;
+    height: 40px;
+    border: none;
+    background: #AD4881;
+    color: white;
+    font-size: 0.8rem;
+}
+.ropaDeportiva button:hover{
+    background-color: #680e41;
+}
+
+
+.barra-opciones .categorias-ropa .Sneakers{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.Sneakers h1{
+    display: flex;
+    gap: 10px;
+}
+.Sneakers .sneakerswrapper{
+    width: 100%;
+    gap: 3px;
+}
+.Sneakers button{
+    width: 19%;
+    height: 40px;
+    border: none;
+    background: #AD4881;
+    color: white;
+    font-size: 0.8rem;
+}
+.Sneakers button:hover{
+    background-color: #680e41;
+}
+
+
+.barra-opciones .categorias-ropa .Accesorios{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.Accesorios h1{
+    display: flex;
+    gap: 10px;
+}
+.Accesorios .accesorioswrapper{
+    width: 100%;
+    gap: 3px;
+}
+.Accesorios button{
+    width: 19%;
+    height: 40px;
+    border: none;
+    background: #AD4881;
+    color: white;
+    font-size: 0.8rem;
+}
+.Accesorios button:hover{
+    background-color: #680e41;
+}
+
+.tablero-principal{
+    width: 100%;
+    height: 16900px;
+    background-color: #AD4881;
+    padding-top: 1rem;
+}
+.ropaProductos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.card img{
+    width: 90%;
+    height: 65%;
+    object-fit: cover;
+}
+.card .productoImagen{
+    filter: invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%);
+    object-fit: contain;
+}
+.card .productoDescripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 90%;
+    height: 35%;
+}
+.card .productoDescripcion .titulos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card .productoDescripcion .titulos h1{
+    font-family: var(--fuenteBold);
+    color: #AD4881;
+}
+.card .productoDescripcion .titulos button{
+    width: 15%;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: var(--fuenteBold);
+}
+.card .productoDescripcion .personalizacion{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .productoDescripcion .personalizacion img{
+    width: 33px;
+} 
+.card .productoDescripcion .personalizacion .circulos-colores{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    width: 80%;
+}
+.card .productoDescripcion .personalizacion .circulos-colores button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+}
+.circulos-colores :first-child{
+    background-color: #AD4881;
+}
+.circulos-colores :nth-child(2){
+    background-color: #F84845;
+}
+.circulos-colores :nth-child(3){
+    background-color: #34B767;
+}
+.circulos-colores :nth-child(4){
+    background-color: #2174F4;
+}
+
+
+.card .productoDescripcion .botonProducto{
+    width: 100%;
+    background-color: #680e41;
+    border: none;
+    color: white;
+    height: 50px;
+    font-size: 2rem;
+    font-family: var(--fuenteBold);
+}

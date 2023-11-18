@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colecciones</title>
+    <link rel="icon" href="./img/RetroIcon.svg">
+    <link rel="stylesheet" href="./colecciones.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html"><img src="./img/RetroIcon.svg" alt=""></a>
+        </nav>
+        <div>Coleccion otoño-invierno</div>
+    </header>
+    <main>
+        <section class="tablero-productos">
+            <div class="barra-opciones">
+                    <h1>Categorias</h1>                    
+                    <div class="categorias-ropa">
+                        <div class="ropaCasual">
+                            <div class="texto-wrapper" style="display: flex; width: 100%; justify-content: space-between;">
+                                <h1 id="H1" style="width: 95%;">Ropa Casual</h1>
+                                <img src="./img/Vectordropdown.svg" alt="" id="dropdown-casual">
+                            </div>
+                            <div class="ropaCasualwrapper" style="display: none;" id="wrapperCasual">
+                                <button>Camiseta</button>
+                                <button>Jeans</button>
+                                <button>Sudadera</button>
+                                <button>Shorts</button>
+                                <button>Vestido</button>
+                            </div>
+                        </div>
+                        <div class="ropaDeportiva">
+                            <div class="texto-wrapper" style="display: flex; width: 100%; justify-content: space-between;">
+                                <h1 id="H2" style="width: 95%;">Ropa deportiva</h1>
+                                <img src="./img/Vectordropdown.svg" alt="" id="dropdown-deportiva">
+                            </div>
+                            <div class="ropaDeportivawrapper" style="display: none;" id="wrapperDeportivo">
+                                <button>Camiseta deportiva</button>
+                                <button>Sujetador Deportivo</button>
+                                <button>Shorts deportivos</button>
+                                <button>Medias</button>
+                                <button>Sudadera deportiva</button>
+                            </div>
+                        </div>
+                        <div class="Sneakers">
+                            <div class="texto-wrapper" style="display: flex; width: 100%; justify-content: space-between;">
+                                <h1 id="H3" style="width: 95%;">Sneakers </h1>
+                                <img src="./img/Vectordropdown.svg" alt="" id="dropdown-sneakers">
+                            </div>
+                            <div class="sneakerswrapper" style="display: none;" id="wrapperSneakers">
+                                <button>Nike</button>
+                                <button>Adidas</button>
+                                <button>Puma</button>
+                                <button>Under Armour</button>
+                                <button>Fila</button>
+                            </div>
+                        </div>
+                        <div class="Accesorios">
+                            <div class="texto-wrapper" style="display: flex; width: 100%; justify-content: space-between;">
+                                <h1 id="H4" style="width: 95%;">Accesorios </h1>
+                                <img src="./img/Vectordropdown.svg" alt="" id="dropdown-accesorios">
+                            </div>
+                            <div class="accesorioswrapper" style="display: none;" id="wrapperAccesorios">
+                                <button>Gorras</button>
+                                <button>Bolsos</button>
+                                <button>Mochilas</button>
+                                <button>Gafas</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="tablero-principal">
+                <div class="ropaProductos">
+                    <div class="card">
+                        <img src="./img/Sparshirt purple.svg" alt="" id="sparkshirt" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Sparkshirt</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado"></button>
+                                    <button id="botonRojo"></button>
+                                    <button id="botonVerde"></button>
+                                    <button id="botonAzul"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/LizoShirt1.svg" alt="" id="lizoShirt" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>LizoShirt</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado2"></button>
+                                    <button id="botonRojo2"></button>
+                                    <button id="botonVerde2"></button>
+                                    <button id="botonAzul2"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/Sushirt.svg" alt="" id ="sushirt" class="productoImagen" style="object-position: top;">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Sushishirt</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado3"></button>
+                                    <button id="botonRojo3"></button>
+                                    <button id="botonVerde3"></button>
+                                    <button id="botonAzul3"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/SunsetShirt.svg" alt="" id="sunshirt" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>SunsetShirt</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado4"></button>
+                                    <button id="botonRojo4"></button>
+                                    <button id="botonVerde4"></button>
+                                    <button id="botonAzul4"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/T-shirt.svg" alt="" id="T-shirt" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Sparkshirt</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado5"></button>
+                                    <button id="botonRojo5"></button>
+                                    <button id="botonVerde5"></button>
+                                    <button id="botonAzul5"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/j-jeans.svg" alt="" id="jjeans" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>j-jeans</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado6"></button>
+                                    <button id="botonRojo6"></button>
+                                    <button id="botonVerde6"></button>
+                                    <button id="botonAzul6"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/t-jeans.svg" alt="" id="tjeans" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>T-jeans</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado7"></button>
+                                    <button id="botonRojo7"></button>
+                                    <button id="botonVerde7"></button>
+                                    <button id="botonAzul7"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/p-shirt.svg" alt="" id="pjeans" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>P-jeans</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado8"></button>
+                                    <button id="botonRojo8"></button>
+                                    <button id="botonVerde8"></button>
+                                    <button id="botonAzul8"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/Retro-jeans.svg" alt="" id="rjeans" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Retro-jeans</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado9"></button>
+                                    <button id="botonRojo9"></button>
+                                    <button id="botonVerde9"></button>
+                                    <button id="botonAzul9"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/b-pants.svg" alt="" id="bjeans" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>B-jeans</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado10"></button>
+                                    <button id="botonRojo10"></button>
+                                    <button id="botonVerde10"></button>
+                                    <button id="botonAzul10"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/Sudadera1.svg" alt="" id="sudadera1" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Sweader</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado11"></button>
+                                    <button id="botonRojo11"></button>
+                                    <button id="botonVerde11"></button>
+                                    <button id="botonAzul11"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/sudadera2.svg" alt="" id="sudadera2" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>UniHoodie</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado12"></button>
+                                    <button id="botonRojo12"></button>
+                                    <button id="botonVerde12"></button>
+                                    <button id="botonAzul12"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/sudadera3.svg" alt="" id="sudadera3" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>HHHdie</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado13"></button>
+                                    <button id="botonRojo13"></button>
+                                    <button id="botonVerde13"></button>
+                                    <button id="botonAzul13"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/sudadera4.svg" alt="" id="sudadera4" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Ssrt-22</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado14"></button>
+                                    <button id="botonRojo14"></button>
+                                    <button id="botonVerde14"></button>
+                                    <button id="botonAzul14"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/sudadera5.svg" alt="" id="sudadera5" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>SwshrtH</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado15"></button>
+                                    <button id="botonRojo15"></button>
+                                    <button id="botonVerde15"></button>
+                                    <button id="botonAzul15"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/short1.svg" alt="" id="short1" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Shorty's</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado16"></button>
+                                    <button id="botonRojo16"></button>
+                                    <button id="botonVerde16"></button>
+                                    <button id="botonAzul16"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/dress1.svg" alt="" id="dress1" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Shorty's</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado17"></button>
+                                    <button id="botonRojo17"></button>
+                                    <button id="botonVerde17"></button>
+                                    <button id="botonAzul17"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/dress2.svg" alt="" id="dress2" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Shorty's</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado18"></button>
+                                    <button id="botonRojo18"></button>
+                                    <button id="botonVerde18"></button>
+                                    <button id="botonAzul18"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/dress3.svg" alt="" id="dress3" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Shorty's</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado19"></button>
+                                    <button id="botonRojo19"></button>
+                                    <button id="botonVerde19"></button>
+                                    <button id="botonAzul19"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/cmd1.svg" alt="" id="cmd" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Camisa Deportiva</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado20"></button>
+                                    <button id="botonRojo20"></button>
+                                    <button id="botonVerde20"></button>
+                                    <button id="botonAzul20"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/sujetador.svg" alt="" id="sujetador" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Sujetador</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado21"></button>
+                                    <button id="botonRojo21"></button>
+                                    <button id="botonVerde21"></button>
+                                    <button id="botonAzul21"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/Medias1.svg" alt="" id="medias" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Medias</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado22"></button>
+                                    <button id="botonRojo22"></button>
+                                    <button id="botonVerde22"></button>
+                                    <button id="botonAzul22"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/nike1.svg" alt="" id="nike1" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Medias</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado23"></button>
+                                    <button id="botonRojo23"></button>
+                                    <button id="botonVerde23"></button>
+                                    <button id="botonAzul23"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/Group nike.svg" alt="" id="nike2" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Medias</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado24"></button>
+                                    <button id="botonRojo24"></button>
+                                    <button id="botonVerde24"></button>
+                                    <button id="botonAzul24"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/Adidas1.svg" alt="" id="adidas1" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Adidas</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado25"></button>
+                                    <button id="botonRojo25"></button>
+                                    <button id="botonVerde25"></button>
+                                    <button id="botonAzul25"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/pumia.svg" alt="" id="pumas1" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Puma</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado26"></button>
+                                    <button id="botonRojo26"></button>
+                                    <button id="botonVerde26"></button>
+                                    <button id="botonAzul26"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/ua1.svg" alt="" id="ua1" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Under Armour</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado27"></button>
+                                    <button id="botonRojo27"></button>
+                                    <button id="botonVerde27"></button>
+                                    <button id="botonAzul27"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/Fila1.svg" alt="" id="fila1" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Fila</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado28"></button>
+                                    <button id="botonRojo28"></button>
+                                    <button id="botonVerde28"></button>
+                                    <button id="botonAzul28"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/gorra1.svg" alt="" id="gorra1" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>gorra1</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado29"></button>
+                                    <button id="botonRojo29"></button>
+                                    <button id="botonVerde29"></button>
+                                    <button id="botonAzul29"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/gorra2.svg" alt="" id="gorra2" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Gorra 2</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado30"></button>
+                                    <button id="botonRojo30"></button>
+                                    <button id="botonVerde30"></button>
+                                    <button id="botonAzul30"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/bolso1.svg" alt="" id="bolsa1" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Bolsa 1</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado31"></button>
+                                    <button id="botonRojo31"></button>
+                                    <button id="botonVerde31"></button>
+                                    <button id="botonAzul31"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/Bolsa2.svg" alt="" id="bolsa2" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Bolsa 2</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado32"></button>
+                                    <button id="botonRojo32"></button>
+                                    <button id="botonVerde32"></button>
+                                    <button id="botonAzul32"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/Mochila1.svg" alt="" id="Mochila1" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Mochila 1</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado33"></button>
+                                    <button id="botonRojo33"></button>
+                                    <button id="botonVerde33"></button>
+                                    <button id="botonAzul33"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/mochila2.png" alt="" id="Mochila2" class="productoImagen">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Mochila 1</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button id="botonMorado34"></button>
+                                    <button id="botonRojo34"></button>
+                                    <button id="botonVerde34"></button>
+                                    <button id="botonAzul34"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/Gafas1.svg" alt="" id="Gafas1" style="object-fit: contain;">
+                        <div class="productoDescripcion">
+                            <div class="titulos">
+                                <h1>Gafas</h1>
+                                <button>New</button>
+                            </div>
+                            <div class="personalizacion">
+                                <img src="./img/VectorHeart.svg" alt="">
+                                <div class="circulos-colores">
+                                    <button style="background-color: black;"></button>
+                                </div>
+                            </div>
+                            <button class="botonProducto">Ver producto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./colecciones.js"></script>
+</body>
+</html>
