@@ -15,7 +15,7 @@ header{
     background-image: url(./img/bacground-colleciont5.svg);
     /* background-image: url(./img/PBckg.svg); */
     /* background-image: url(./img/Collection-hero-img.svg); */
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -285,9 +285,6 @@ header nav{
     body{
         overflow: x;
     }
-    header{
-        height: 150vh;
-    }
     main{
         overflow-y: hidden;
     }
@@ -296,6 +293,7 @@ header nav{
     }
     .barra-opciones{
         justify-content: flex-start;
+        width: 25%;
         height: auto;
         gap: 20px;
     }
@@ -327,6 +325,7 @@ header nav{
         width: 32%;
     }
     .tablero-principal{
+        width: 75%;
         height: calc(130vh - 30px);
         overflow: hidden;
         overflow: auto;
@@ -360,9 +359,57 @@ header nav{
         grid-template-columns: repeat(3,1fr);
     }
 }
-
 @media(min-width:1440px){
-    header {
-        height: 100vh;
+    nav img{
+        width: 10rem;
+    }
+}
+@media(min-width:2560px){
+    nav img{
+        width: 20rem;
+    }
+    .barra-opciones{
+        font-size: 2rem;
+        gap: 60px;
+    }
+    .categorias-ropa{
+        gap: 120px !important;
+    }
+    .ropaCasual{
+        height: 200px;
+    }
+    .ropaCasual button{
+        font-size: 1.5rem;
+    }
+    .ropaDeportiva{
+        height: 200px;
+    }
+    .ropaDeportiva button{
+        font-size: 1.5rem;
+    }
+    .Sneakers{
+        height: 200px;
+    }
+    .Sneakers button{
+        font-size: 1.5rem;
+    }
+    .Accesorios{
+        height: 200px;
+    }
+    .Accesorios button{
+        font-size: 1.5rem;
+    }
+    .card{
+        height: 700px;
+    }
+    .card .productoDescripcion .titulos h1{
+        font-size: 3rem;
+    }
+    .card .productoDescripcion .titulos button{
+        font-size: 1.5rem;
+    }
+    .card .productoDescripcion .botonProducto{
+        height: 80px;
+        font-size: 2rem;
     }
 }
