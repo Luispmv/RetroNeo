@@ -12,24 +12,16 @@ body{
 header{
     width: 100%;
     height: 400px;
-    background-image: url(./img/Collection-hero-img.svg);
-    background-position: center;
+    background-image: url(./img/bacground-colleciont5.svg);
+    /* background-image: url(./img/PBckg.svg); */
+    /* background-image: url(./img/Collection-hero-img.svg); */
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 header nav{
     height: 25%;
     padding: 5px;
-}
-header div{
-    height: 75%;
-    display: grid;
-    place-content: center;
-    text-align: center;
-    font-size: 2.5rem;
-    font-family: var(--fuente);
-    color: #AD4881;
-    font-weight: bolder;
 }
 .barra-opciones{
     display: flex;
@@ -168,7 +160,8 @@ header div{
     width: 100%;
     height: auto;
     /* height: 16170px; */
-    background-color: #AD4881;
+    background-color: black;
+    /* background-color: #AD4881; */
     padding-top: 1rem;
 }
 .ropaProductos{
@@ -266,8 +259,14 @@ header div{
     font-size: 2rem;
     font-family: var(--fuenteBold);
 }
+.card .productoDescripcion .botonProducto:hover{
+    background-color: #AD4881;
+}
 
 @media(min-width:768px){
+    header{
+        height: 100vh
+    }
     .tablero-principal{
         height: auto;
         /* height: 8816px; */
@@ -282,6 +281,9 @@ header div{
 @media(min-width:1024px){
     body{
         overflow: x;
+    }
+    header{
+        height: 150vh;
     }
     main{
         overflow-y: hidden;

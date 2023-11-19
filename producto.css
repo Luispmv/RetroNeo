@@ -89,7 +89,7 @@ button span{
     font-size: 40px;
 }
 .info-usuario button{
-    background-color: #EB9ECA;
+    background-color: black;
     border: none;
     color: white;
     font-family: var(--fuenteBold);
