@@ -336,10 +336,33 @@ header nav{
     .tablero-principal::-webkit-scrollbar {
         display: none;
     }
+    .card{
+        height: 350px;
+    }
+    .card h1{
+        font-size: 1.2rem;
+    }
+    .card .productoDescripcion .titulos button{
+        width: 20%;
+    }
+    .card .productoDescripcion .personalizacion img {
+        width: 25px;
+        height: 25px;
+    }
+    .card .productoDescripcion .personalizacion .circulos-colores button{
+        width: 20px;
+        height: 20px;
+    }
     .card .productoDescripcion .botonProducto{
         font-size: 1rem;
     }
     .ropaProductos{
         grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media(min-width:1440px){
+    header {
+        height: 100vh;
     }
 }

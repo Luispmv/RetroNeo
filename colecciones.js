@@ -311,26 +311,12 @@ botonAzul.addEventListener("click", function(){
 });
 
 var lizoshirt = document.getElementById("lizoShirt"); // selecciona el primer elemento o ajusta según sea necesario
-var botonMorado2 = document.getElementById("botonMorado2");
-var botonRojo2 = document.getElementById("botonRojo2");
-var botonVerde2 = document.getElementById("botonVerde2");
-var botonAzul2 = document.getElementById("botonAzul2");
+var botonNegro2 = document.getElementById("botonNegro2");
 
-botonMorado2.addEventListener("click", function(){
-    lizoshirt.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+botonNegro2.addEventListener("click", function(){
+    lizoshirt.style.filter = "none";
 });
 
-botonRojo2.addEventListener("click", function(){
-    lizoshirt.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde2.addEventListener("click", function(){
-    lizoshirt.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul2.addEventListener("click", function(){
-    lizoshirt.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
 
 
 var Sushirt = document.getElementById("sushirt"); // selecciona el primer elemento o ajusta según sea necesario
@@ -358,24 +344,20 @@ botonAzul3.addEventListener("click", function(){
 var Sunshirt = document.getElementById("sunshirt"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado4 = document.getElementById("botonMorado4");
 var botonRojo4 = document.getElementById("botonRojo4");
-var botonVerde4 = document.getElementById("botonVerde4");
-var botonAzul4 = document.getElementById("botonAzul4");
+var botonGris4 = document.getElementById("botonGris4");
 
 botonMorado4.addEventListener("click", function(){
-    Sunshirt.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+    Sunshirt.style.filter = "invert(0%) sepia(126%) saturate(608%) hue-rotate(260deg) brightness(75%) contrast(130%)";
 });
 
 botonRojo4.addEventListener("click", function(){
-    Sunshirt.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
+    Sunshirt.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
 });
 
-botonVerde4.addEventListener("click", function(){
-    Sunshirt.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
+botonGris4.addEventListener("click", function(){
+    Sunshirt.style.filter = "none";
 });
 
-botonAzul4.addEventListener("click", function(){
-    Sunshirt.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
 
 var Tshirt = document.getElementById("T-shirt"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado5 = document.getElementById("botonMorado5");
@@ -403,70 +385,27 @@ botonAzul5.addEventListener("click", function(){
 
 var jjeans = document.getElementById("jjeans"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado6 = document.getElementById("botonMorado6");
-var botonRojo6 = document.getElementById("botonRojo6");
-var botonVerde6 = document.getElementById("botonVerde6");
-var botonAzul6 = document.getElementById("botonAzul6");
+
 
 botonMorado6.addEventListener("click", function(){
-    jjeans.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+    jjeans.style.filter = "none";
 });
-
-botonRojo6.addEventListener("click", function(){
-    jjeans.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde6.addEventListener("click", function(){
-    jjeans.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul6.addEventListener("click", function(){
-    jjeans.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
-
 
 var tjeans = document.getElementById("tjeans"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado7 = document.getElementById("botonMorado7");
-var botonRojo7 = document.getElementById("botonRojo7");
-var botonVerde7 = document.getElementById("botonVerde7");
-var botonAzul7 = document.getElementById("botonAzul7");
 
 botonMorado7.addEventListener("click", function(){
-    tjeans.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
-});
-
-botonRojo7.addEventListener("click", function(){
-    tjeans.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde7.addEventListener("click", function(){
-    tjeans.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul7.addEventListener("click", function(){
-    tjeans.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
+    tjeans.style.filter = "none";
 });
 
 var pjeans = document.getElementById("pjeans"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado8 = document.getElementById("botonMorado8");
-var botonRojo8 = document.getElementById("botonRojo8");
-var botonVerde8 = document.getElementById("botonVerde8");
-var botonAzul8 = document.getElementById("botonAzul8");
+
 
 botonMorado8.addEventListener("click", function(){
-    pjeans.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+    pjeans.style.filter = "none"
 });
 
-botonRojo8.addEventListener("click", function(){
-    pjeans.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde8.addEventListener("click", function(){
-    pjeans.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul8.addEventListener("click", function(){
-    pjeans.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
 
 var rjeans = document.getElementById("rjeans"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado9 = document.getElementById("botonMorado9");
@@ -479,7 +418,7 @@ botonMorado9.addEventListener("click", function(){
 });
 
 botonRojo9.addEventListener("click", function(){
-    rjeans.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
+    rjeans.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(400deg) brightness(75%) contrast(270%)";
 });
 
 botonVerde9.addEventListener("click", function(){
@@ -493,25 +432,11 @@ botonAzul9.addEventListener("click", function(){
 
 var bjeans = document.getElementById("bjeans"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado10 = document.getElementById("botonMorado10");
-var botonRojo10 = document.getElementById("botonRojo10");
-var botonVerde10 = document.getElementById("botonVerde10");
-var botonAzul10 = document.getElementById("botonAzul10");
 
 botonMorado10.addEventListener("click", function(){
-    bjeans.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+    bjeans.style.filter = "none";
 });
 
-botonRojo10.addEventListener("click", function(){
-    bjeans.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde10.addEventListener("click", function(){
-    bjeans.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul10.addEventListener("click", function(){
-    bjeans.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
 
 
 var sudadera1 = document.getElementById("sudadera1"); // selecciona el primer elemento o ajusta según sea necesario
@@ -768,24 +693,9 @@ botonAzul21.addEventListener("click", function(){
 //Medias
 var medias = document.getElementById("medias"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado22 = document.getElementById("botonMorado22");
-var botonRojo22 = document.getElementById("botonRojo22");
-var botonVerde22 = document.getElementById("botonVerde22");
-var botonAzul22 = document.getElementById("botonAzul22");
 
 botonMorado22.addEventListener("click", function(){
-    medias.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
-});
-
-botonRojo22.addEventListener("click", function(){
-    medias.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde22.addEventListener("click", function(){
-    medias.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul22.addEventListener("click", function(){
-    medias.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
+    medias.style.filter = "none";
 });
 
 //Nike
@@ -796,176 +706,67 @@ var botonVerde23 = document.getElementById("botonVerde23");
 var botonAzul23 = document.getElementById("botonAzul23");
 
 botonMorado23.addEventListener("click", function(){
-    nike1.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+    nike1.style.filter = "none";
 });
-botonRojo23.addEventListener("click", function(){
-    nike1.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-botonVerde23.addEventListener("click", function(){
-    nike1.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-botonAzul23.addEventListener("click", function(){
-    nike1.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
+
 
 var nike2 = document.getElementById("nike2"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado24 = document.getElementById("botonMorado24");
-var botonRojo24 = document.getElementById("botonRojo24");
-var botonVerde24 = document.getElementById("botonVerde24");
-var botonAzul24 = document.getElementById("botonAzul24");
+
 
 botonMorado24.addEventListener("click", function(){
-    nike2.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+    nike2.style.filter = "none";
 });
 
-botonRojo24.addEventListener("click", function(){
-    nike2.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde24.addEventListener("click", function(){
-    nike2.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul24.addEventListener("click", function(){
-    nike2.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
 
 //Adidas
 var adidas1 = document.getElementById("adidas1"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado25 = document.getElementById("botonMorado25");
-var botonRojo25 = document.getElementById("botonRojo25");
-var botonVerde25 = document.getElementById("botonVerde25");
-var botonAzul25 = document.getElementById("botonAzul25");
+
 
 botonMorado25.addEventListener("click", function(){
-    adidas1.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+    adidas1.style.filter = "none";
 });
 
-botonRojo25.addEventListener("click", function(){
-    adidas1.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde25.addEventListener("click", function(){
-    adidas1.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul25.addEventListener("click", function(){
-    adidas1.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
 
 //Puma
 var puma1 = document.getElementById("pumas1"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado26 = document.getElementById("botonMorado26");
-var botonRojo26 = document.getElementById("botonRojo26");
-var botonVerde26 = document.getElementById("botonVerde26");
-var botonAzul26 = document.getElementById("botonAzul26");
 
 botonMorado26.addEventListener("click", function(){
-    puma1.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
-});
-
-botonRojo26.addEventListener("click", function(){
-    puma1.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde26.addEventListener("click", function(){
-    puma1.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul26.addEventListener("click", function(){
-    puma1.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
+    puma1.style.filter = "none";
 });
 
 
 //Under Armour
 var underArmour = document.getElementById("ua1"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado27 = document.getElementById("botonMorado27");
-var botonRojo27 = document.getElementById("botonRojo27");
-var botonVerde27 = document.getElementById("botonVerde27");
-var botonAzul27 = document.getElementById("botonAzul27");
 
 botonMorado27.addEventListener("click", function(){
-    underArmour.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
-});
-
-botonRojo27.addEventListener("click", function(){
-    underArmour.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde27.addEventListener("click", function(){
-    underArmour.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul27.addEventListener("click", function(){
-    underArmour.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
+    underArmour.style.filter = "none";
 });
 
 //Fila
 var fila1 = document.getElementById("fila1"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado28 = document.getElementById("botonMorado28");
-var botonRojo28 = document.getElementById("botonRojo28");
-var botonVerde28 = document.getElementById("botonVerde28");
-var botonAzul28 = document.getElementById("botonAzul28");
 
 botonMorado28.addEventListener("click", function(){
-    fila1.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+    fila1.style.filter = "none";
 });
-
-botonRojo28.addEventListener("click", function(){
-    fila1.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde28.addEventListener("click", function(){
-    fila1.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul28.addEventListener("click", function(){
-    fila1.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
-
 //Gorras
 var gorra1 = document.getElementById("gorra1"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado29 = document.getElementById("botonMorado29");
-var botonRojo29 = document.getElementById("botonRojo29");
-var botonVerde29 = document.getElementById("botonVerde29");
-var botonAzul29 = document.getElementById("botonAzul29");
 
 botonMorado29.addEventListener("click", function(){
-    gorra1.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+    gorra1.style.filter = "none";
 });
 
-botonRojo29.addEventListener("click", function(){
-    gorra1.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde29.addEventListener("click", function(){
-    gorra1.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul29.addEventListener("click", function(){
-    gorra1.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
 
 var gorra2 = document.getElementById("gorra2"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado30 = document.getElementById("botonMorado30");
-var botonRojo30 = document.getElementById("botonRojo30");
-var botonVerde30 = document.getElementById("botonVerde30");
-var botonAzul30 = document.getElementById("botonAzul30");
 
 botonMorado30.addEventListener("click", function(){
-    gorra2.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
-});
-
-botonRojo30.addEventListener("click", function(){
-    gorra2.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde30.addEventListener("click", function(){
-    gorra2.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul30.addEventListener("click", function(){
-    gorra2.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
+    gorra2.style.filter = "none";
 });
 
 //bolsas
@@ -976,42 +777,17 @@ var botonVerde31 = document.getElementById("botonVerde31");
 var botonAzul31 = document.getElementById("botonAzul31");
 
 botonMorado31.addEventListener("click", function(){
-    bolsa1.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+    bolsa1.style.filter = "none";
 });
 
-botonRojo31.addEventListener("click", function(){
-    bolsa1.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde31.addEventListener("click", function(){
-    bolsa1.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul31.addEventListener("click", function(){
-    bolsa1.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
 
 var bolsa2 = document.getElementById("bolsa2");
 var botonMorado32 = document.getElementById("botonMorado32");
-var botonRojo32 = document.getElementById("botonRojo32");
-var botonVerde32 = document.getElementById("botonVerde32");
-var botonAzul32 = document.getElementById("botonAzul32");
 
 botonMorado32.addEventListener("click", function(){
-    bolsa2.style.filter = "invert(30%) sepia(45%) saturate(500%) hue-rotate(300deg) brightness(60%) contrast(240%)";
+    bolsa2.style.filter = "none";
 });
 
-botonRojo32.addEventListener("click", function(){
-    bolsa2.style.filter = "invert(41%) sepia(0%) saturate(500%) hue-rotate(376deg) brightness(80%) contrast(200%)";
-});
-
-botonVerde32.addEventListener("click", function(){
-    bolsa2.style.filter = "invert(4%) sepia(260%) saturate(500%) hue-rotate(91deg) brightness(80%) contrast(150%)";
-});
-
-botonAzul32.addEventListener("click", function(){
-    bolsa2.style.filter = "invert(0%) sepia(80%) saturate(500%) hue-rotate(200deg) brightness(75%) contrast(130%)";
-});
 
 //Mochila
 
