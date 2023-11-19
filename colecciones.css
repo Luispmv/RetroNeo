@@ -37,7 +37,7 @@ header div{
     justify-content: center;
     text-align: start;
     font-family: var(--fuente);
-    height: 400px;
+    height: 450px;
     padding-left: 1px;
     gap: 10px;
     background-color: black;
@@ -292,10 +292,10 @@ header div{
     .barra-opciones{
         justify-content: flex-start;
         height: auto;
-        gap: 40px;
+        gap: 20px;
     }
     .barra-opciones .categorias-ropa{
-        gap: 60px;
+        gap: 40px;
     }
     .ropaCasual .ropaCasualwrapper{
         flex-wrap: wrap;
