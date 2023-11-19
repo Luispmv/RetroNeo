@@ -25,11 +25,11 @@
                                 <img src="./img/Vectordropdown.svg" alt="" id="dropdown-casual">
                             </div>
                             <div class="ropaCasualwrapper" style="display: none;" id="wrapperCasual">
-                                <button>Camiseta</button>
-                                <button>Jeans</button>
-                                <button>Sudadera</button>
-                                <button>Shorts</button>
-                                <button>Vestido</button>
+                                <button id="CamisetaFiltro">Camiseta</button>
+                                <button id="JeansFiltro">Jeans</button>
+                                <button id="SudaderasFiltro">Sudadera</button>
+                                <button id="ShortsFiltro">Shorts</button>
+                                <button id="VestidoFiltro">Vestido</button>
                             </div>
                         </div>
                         <div class="ropaDeportiva">
@@ -38,11 +38,9 @@
                                 <img src="./img/Vectordropdown.svg" alt="" id="dropdown-deportiva">
                             </div>
                             <div class="ropaDeportivawrapper" style="display: none;" id="wrapperDeportivo">
-                                <button>Camiseta deportiva</button>
-                                <button>Sujetador Deportivo</button>
-                                <button>Shorts deportivos</button>
-                                <button>Medias</button>
-                                <button>Sudadera deportiva</button>
+                                <button id="CamisetaDeportiva">Camiseta</button>
+                                <button id="SujetadorDeportivo">Sujetador</button>
+                                <button id="Medias">Medias</button>
                             </div>
                         </div>
                         <div class="Sneakers">
@@ -51,11 +49,11 @@
                                 <img src="./img/Vectordropdown.svg" alt="" id="dropdown-sneakers">
                             </div>
                             <div class="sneakerswrapper" style="display: none;" id="wrapperSneakers">
-                                <button>Nike</button>
-                                <button>Adidas</button>
-                                <button>Puma</button>
-                                <button>Under Armour</button>
-                                <button>Fila</button>
+                                <button id="nikeFiltro">Nike</button>
+                                <button id="AdidasFiltro">Adidas</button>
+                                <button id="PumaFiltro">Puma</button>
+                                <button id="UAFiltro">Under Armour</button>
+                                <button id="Fila">Fila</button>
                             </div>
                         </div>
                         <div class="Accesorios">
@@ -64,17 +62,18 @@
                                 <img src="./img/Vectordropdown.svg" alt="" id="dropdown-accesorios">
                             </div>
                             <div class="accesorioswrapper" style="display: none;" id="wrapperAccesorios">
-                                <button>Gorras</button>
-                                <button>Bolsos</button>
-                                <button>Mochilas</button>
-                                <button>Gafas</button>
+                                <button id="GorraFiltro">Gorras</button>
+                                <button id="BolsosFiltro">Bolsos</button>
+                                <button id="MochilasFiltro">Mochilas</button>
+                                <button id="GafasFiltro">Gafas</button>
                             </div>
                         </div>
                     </div>
+                    <h1 id="h1todo">Todo</h1>
             </div>
             <div class="tablero-principal">
                 <div class="ropaProductos">
-                    <div class="card">
+                    <div class="card" id="Tarjeta1">
                         <img src="./img/Sparshirt purple.svg" alt="" id="sparkshirt" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -94,7 +93,7 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card" id="Tarjeta2">
                         <img src="./img/LizoShirt1.svg" alt="" id="lizoShirt" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -114,7 +113,7 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card" id="Tarjeta3">
                         <img src="./img/Sushirt.svg" alt="" id ="sushirt" class="productoImagen" style="object-position: top;">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -134,7 +133,7 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card" id="Tarjeta4">
                         <img src="./img/SunsetShirt.svg" alt="" id="sunshirt" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -154,7 +153,7 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card" id="Tarjeta5">
                         <img src="./img/T-shirt.svg" alt="" id="T-shirt" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -174,7 +173,7 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card" id="Tarjeta6">
                         <img src="./img/j-jeans.svg" alt="" id="jjeans" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -193,7 +192,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta7">
                         <img src="./img/t-jeans.svg" alt="" id="tjeans" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -212,7 +211,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta8">
                         <img src="./img/p-shirt.svg" alt="" id="pjeans" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -231,7 +230,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta9">
                         <img src="./img/Retro-jeans.svg" alt="" id="rjeans" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -250,7 +249,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta10">
                         <img src="./img/b-pants.svg" alt="" id="bjeans" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -269,7 +268,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta11">
                         <img src="./img/Sudadera1.svg" alt="" id="sudadera1" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -288,7 +287,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta12">
                         <img src="./img/sudadera2.svg" alt="" id="sudadera2" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -307,7 +306,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta13">
                         <img src="./img/sudadera3.svg" alt="" id="sudadera3" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -326,7 +325,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta14">
                         <img src="./img/sudadera4.svg" alt="" id="sudadera4" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -345,7 +344,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta15">
                         <img src="./img/sudadera5.svg" alt="" id="sudadera5" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -364,7 +363,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta16">
                         <img src="./img/short1.svg" alt="" id="short1" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -383,7 +382,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta17">
                         <img src="./img/dress1.svg" alt="" id="dress1" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -402,7 +401,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta18">
                         <img src="./img/dress2.svg" alt="" id="dress2" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -421,7 +420,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta19">
                         <img src="./img/dress3.svg" alt="" id="dress3" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -440,7 +439,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta20">
                         <img src="./img/cmd1.svg" alt="" id="cmd" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -459,7 +458,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta21">
                         <img src="./img/sujetador.svg" alt="" id="sujetador" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -478,7 +477,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta22">
                         <img src="./img/Medias1.svg" alt="" id="medias" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -497,7 +496,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta23">
                         <img src="./img/nike1.svg" alt="" id="nike1" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -516,7 +515,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta24">
                         <img src="./img/Group nike.svg" alt="" id="nike2" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -535,7 +534,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta25">
                         <img src="./img/Adidas1.svg" alt="" id="adidas1" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -554,7 +553,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta26">
                         <img src="./img/pumia.svg" alt="" id="pumas1" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -573,7 +572,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta27">
                         <img src="./img/ua1.svg" alt="" id="ua1" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -592,7 +591,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta28">
                         <img src="./img/Fila1.svg" alt="" id="fila1" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -611,7 +610,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta29">
                         <img src="./img/gorra1.svg" alt="" id="gorra1" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -630,7 +629,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta30">
                         <img src="./img/gorra2.svg" alt="" id="gorra2" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -649,7 +648,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta31">
                         <img src="./img/bolso1.svg" alt="" id="bolsa1" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -668,7 +667,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta32">
                         <img src="./img/Bolsa2.svg" alt="" id="bolsa2" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -687,7 +686,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta33">
                         <img src="./img/Mochila1.svg" alt="" id="Mochila1" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -706,7 +705,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta34">
                         <img src="./img/mochila2.png" alt="" id="Mochila2" class="productoImagen">
                         <div class="productoDescripcion">
                             <div class="titulos">
@@ -725,7 +724,7 @@
                             <button class="botonProducto">Ver producto</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="Tarjeta35">
                         <img src="./img/Gafas1.svg" alt="" id="Gafas1" style="object-fit: contain;">
                         <div class="productoDescripcion">
                             <div class="titulos">

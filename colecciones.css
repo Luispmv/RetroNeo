@@ -166,7 +166,8 @@ header div{
 
 .tablero-principal{
     width: 100%;
-    height: 16900px;
+    height: auto;
+    /* height: 16170px; */
     background-color: #AD4881;
     padding-top: 1rem;
 }
@@ -264,4 +265,76 @@ header div{
     height: 50px;
     font-size: 2rem;
     font-family: var(--fuenteBold);
+}
+
+@media(min-width:768px){
+    .tablero-principal{
+        height: auto;
+        /* height: 8816px; */
+    }
+    .ropaProductos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center;
+        grid-row-gap: 60px;
+    }
+}
+@media(min-width:1024px){
+    body{
+        overflow: x;
+    }
+    main{
+        overflow-y: hidden;
+    }
+    .tablero-productos{
+        display: flex;
+    }
+    .barra-opciones{
+        justify-content: flex-start;
+        height: auto;
+        gap: 40px;
+    }
+    .barra-opciones .categorias-ropa{
+        gap: 60px;
+    }
+    .ropaCasual .ropaCasualwrapper{
+        flex-wrap: wrap;
+    }
+    .ropaCasual button{
+        width: 32%;
+    }
+    .ropaDeportiva .ropaDeportivawrapper{
+        flex-wrap: wrap;
+    }
+    .ropaDeportiva button{
+        width: 32%;
+    }
+    .Sneakers .sneakerswrapper{
+        flex-wrap: wrap;
+    }
+    .Sneakers button{
+        width: 32%;
+    }
+    .Accesorios .accesorioswrapper{
+        flex-wrap: wrap;
+    }
+    .Accesorios button{
+        width: 32%;
+    }
+    .tablero-principal{
+        height: calc(130vh - 30px);
+        overflow: hidden;
+        overflow: auto;
+        padding-bottom: 30px;
+        /* height: 5874px; */
+    }
+    .tablero-principal::-webkit-scrollbar {
+        display: none;
+    }
+    .card .productoDescripcion .botonProducto{
+        font-size: 1rem;
+    }
+    .ropaProductos{
+        grid-template-columns: repeat(3,1fr);
+    }
 }

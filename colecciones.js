@@ -52,6 +52,241 @@ etiquetah14.addEventListener("click", function(){
 })
 
 
+//Filtros
+var camisetaFiltro = document.getElementById("CamisetaFiltro")
+var JeansFiltro = document.getElementById("JeansFiltro")
+var SudaderasFiltro = document.getElementById("SudaderasFiltro")
+var ShortsFiltro = document.getElementById("ShortsFiltro")
+var VestidoFiltro = document.getElementById("VestidoFiltro")
+
+var CamisetaDeportiva = document.getElementById("CamisetaDeportiva")
+var SujetadorDeportivo = document.getElementById("SujetadorDeportivo")
+var Medias = document.getElementById("Medias")
+
+var nikeFiltro = document.getElementById("nikeFiltro")
+var AdidasFiltro = document.getElementById("AdidasFiltro")
+var PumaFiltro = document.getElementById("PumaFiltro")
+var UAFiltro = document.getElementById("UAFiltro")
+var Fila = document.getElementById("Fila")
+
+var GorraFiltro = document.getElementById("GorraFiltro")
+var BolsosFiltro = document.getElementById("BolsosFiltro")
+var MochilasFiltro = document.getElementById("MochilasFiltro")
+var GafasFiltro = document.getElementById("GafasFiltro")
+
+var h1todo = document.getElementById("h1todo")
+
+var tarjetas = {};
+for (var i = 1; i <= 35; i++) {
+    tarjetas["tarjeta" + i] = document.getElementById("Tarjeta" + i);
+}
+
+// camisetaFiltro.addEventListener("click", function(){
+//     tarjeta1.style.display = "flex" 
+//     tarjeta2.style.display = "flex"
+//     tarjeta3.style.display = "flex" 
+//     tarjeta4.style.display = "flex" 
+//     tarjeta5.style.display = "flex"
+//     tarjeta6.style.display = "none"
+//     tarjeta7.style.display = "none"
+//     tarjeta8.style.display = "none"
+//     tarjeta9.style.display = "none"
+//     tarjeta10.style.display = "none"
+//     tarjeta10.style.display = "none"
+//     tarjeta11.style.display = "none"
+//     tarjeta12.style.display = "none"
+//     tarjeta13.style.display = "none"
+//     tarjeta14.style.display = "none"
+//     tarjeta15.style.display = "none"
+//     tarjeta16.style.display = "none"
+//     tarjeta17.style.display = "none"
+//     tarjeta18.style.display = "none"
+//     tarjeta19.style.display = "none"
+//     tarjeta20.style.display = "none"
+//     tarjeta21.style.display = "none"
+//     tarjeta22.style.display = "none"
+//     tarjeta23.style.display = "none"
+//     tarjeta24.style.display = "none"
+//     tarjeta25.style.display = "none"
+//     tarjeta26.style.display = "none"
+//     tarjeta27.style.display = "none"
+//     tarjeta28.style.display = "none"
+//     tarjeta29.style.display = "none"
+//     tarjeta30.style.display = "none"
+//     tarjeta31.style.display = "none"
+//     tarjeta32.style.display = "none"
+//     tarjeta33.style.display = "none"
+//     tarjeta34.style.display = "none"
+//     tarjeta35.style.display = "none"
+// })
+
+camisetaFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 1 && i <= 5) ? "flex" : "none";
+        }
+    }
+});
+
+
+JeansFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 6 && i <= 9) ? "flex" : "none";
+        }
+    }
+});
+
+
+SudaderasFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 11 && i <= 15) ? "flex" : "none";
+        }
+    }
+});
+
+
+ShortsFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i === 16) ? "flex" : "none";
+        }
+    }
+});
+
+
+VestidoFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 17 && i <= 19) ? "flex" : "none";
+        }
+    }
+});
+
+
+CamisetaDeportiva.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i === 20) ? "flex" : "none";
+        }
+    }
+});
+
+SujetadorDeportivo.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i === 21) ? "flex" : "none";
+        }
+    }
+});
+
+Medias.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i === 22) ? "flex" : "none";
+        }
+    }
+});
+
+nikeFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 23 && i <= 24) ? "flex" : "none";
+        }
+    }
+});
+
+AdidasFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 25 && i <= 26) ? "flex" : "none";
+        }
+    }
+});
+
+PumaFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i === 26) ? "flex" : "none";
+        }
+    }
+});
+
+UAFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i === 27) ? "flex" : "none";
+        }
+    }
+});
+
+Fila.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i === 28) ? "flex" : "none";
+        }
+    }
+});
+
+GorraFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 29 && i <= 30) ? "flex" : "none";
+        }
+    }
+});
+
+BolsosFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 31 && i <= 32) ? "flex" : "none";
+        }
+    }
+});
+MochilasFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 33 && i <= 34) ? "flex" : "none";
+        }
+    }
+});
+GafasFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i===35) ? "flex" : "none";
+        }
+    }
+});
+
+h1todo.addEventListener("mouseup", function(){
+    h1todo.style.cursor = "pointer"
+})
+h1todo.addEventListener("click", function() {
+    for (let i = 1; i <= 35; i++) {
+        const tarjeta = document.getElementById("Tarjeta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = "flex"
+        }
+    }
+});
 //Camisas
 var sparkshirt = document.getElementById("sparkshirt"); // selecciona el primer elemento o ajusta según sea necesario
 var botonMorado = document.getElementById("botonMorado");
