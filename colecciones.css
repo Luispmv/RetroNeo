@@ -21,7 +21,10 @@ header{
 }
 header nav{
     height: 25%;
-    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 .barra-opciones{
     display: flex;
