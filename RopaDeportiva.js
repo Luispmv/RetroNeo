@@ -172,127 +172,151 @@ var cartaCero = document.getElementById("carta0")
 var tarjetas = {};
 
 document.addEventListener("DOMContentLoaded", function () {
-    for (var i = 1; i <= 17; i++) {
+    for (var i = 1; i <= 29; i++) {
         tarjetas["carta" + i] = document.getElementById("carta" + i);
     }
 });
 
 var camisetasRunningFiltro = document.getElementById("camisetasRunningFiltro")
-// camisetasRunningFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 1 && i <= 2) ? "flex" : "none";
-//         }
-//     }
-// });
-// camisetasRunningFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "flex"
-// })
+camisetasRunningFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 29; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 0 && i <= 2) ? "flex" : "none";
+        }
+    }
+});
+camisetasRunningFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "flex"
+})
 
 var pantalonesRunningFiltro = document.getElementById("pantalonesRunningFiltro")
-// pantalonesRunningFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 3 && i <= 4) ? "flex" : "none";
-//         }
-//     }
-// });
-// pantalonesRunningFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+pantalonesRunningFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 29; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 3 && i <= 5) ? "flex" : "none";
+        }
+    }
+});
+pantalonesRunningFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 
 var calcetinesDeportivosFiltro = document.getElementById("calcetinesDeportivosFiltro")
-// calcetinesDeportivosFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 5 && i <= 6) ? "flex" : "none";
-//         }
-//     }
-// });
-// calcetinesDeportivosFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+calcetinesDeportivosFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 29; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 6 && i <= 8) ? "flex" : "none";
+        }
+    }
+});
+calcetinesDeportivosFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 
 var sudaderasFiltro = document.getElementById("sudaderasFiltro")
-// sudaderasFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 7 && i <= 9) ? "flex" : "none";
-//         }
-//     }
-// });
-// sudaderasFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+sudaderasFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 29; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 9 && i <= 11) ? "flex" : "none";
+        }
+    }
+});
+sudaderasFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 
 var camisetasSinMangasFiltro = document.getElementById("camisetasSinMangasFiltro")
-// camisetasSinMangasFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 10 && i <= 11) ? "flex" : "none";
-//         }
-//     }
-// });
-// camisetasSinMangasFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+camisetasSinMangasFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 29; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 12 && i <= 14) ? "flex" : "none";
+        }
+    }
+});
+camisetasSinMangasFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 var shortsFiltro = document.getElementById("shortsFiltro")
-// shortsFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i === 12) ? "flex" : "none";
-//         }
-//     }
-// });
-// shortsFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+shortsFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 29; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 15 && i<= 17) ? "flex" : "none";
+        }
+    }
+});
+shortsFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 var leggingsFiltro = document.getElementById("leggingsFiltro")
-// leggingsFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 13 && i <= 15) ? "flex" : "none";
-//         }
-//     }
-// });
-// leggingsFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+leggingsFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 29; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 18 && i <= 20) ? "flex" : "none";
+        }
+    }
+});
+leggingsFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 var camisetasFutbolFiltro = document.getElementById("camisetasFutbolFiltro")
-// camisetasFutbolFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 16 && i <= 17) ? "flex" : "none";
-//         }
-//     }
-// });
-// camisetasFutbolFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+camisetasFutbolFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 29; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 21 && i <= 23) ? "flex" : "none";
+        }
+    }
+});
+camisetasFutbolFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 var shortsFutbolFiltro = document.getElementById("shortsFutbolFiltro")
+shortsFutbolFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 29; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 24 && i <= 26) ? "flex" : "none";
+        }
+    }
+});
+shortsFutbolFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
+
+
 var camisetasBaloncestoFiltro = document.getElementById("camisetasBaloncestoFiltro")
+camisetasBaloncestoFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 29; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 27 && i <= 29) ? "flex" : "none";
+        }
+    }
+});
+camisetasBaloncestoFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 var subheader4 = document.getElementById("subheader4")
 subheader4.addEventListener("click", function() {
-    for (let i = 1; i <= 17; i++) {
+    for (let i = 1; i <= 29; i++) {
         const tarjeta = document.getElementById("carta" + i);
         if (tarjeta) {
-            tarjeta.style.display = (i >= 0 && i <= 17) ? "flex" : "none";
+            tarjeta.style.display = (i >= 0 && i <= 29) ? "flex" : "none";
         }
     }
 });
