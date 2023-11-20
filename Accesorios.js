@@ -34,8 +34,8 @@ subheader3.addEventListener("click", function(){
     sbf3.style.display = "none";
 });
 
-var dropdown4 = document.getElementById("dropdown4");
-var sbf4 = document.getElementById("sbf4"); 
+// var dropdown4 = document.getElementById("dropdown4");
+// var sbf4 = document.getElementById("sbf4"); 
 var subheader4 = document.getElementById("subheader4"); 
 
 dropdown4.addEventListener("click", function(){
@@ -168,76 +168,100 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 var bufandaClasicaFiltro = document.getElementById("bufandaClasicaFiltro")
-// bufandaClasicaFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 1 && i <= 2) ? "flex" : "none";
-//         }
-//     }
-// });
-// bufandaClasicaFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "flex"
-// })
+bufandaClasicaFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 17; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 0 && i <= 1) ? "flex" : "none";
+        }
+    }
+});
+bufandaClasicaFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "flex"
+})
 
 var bufandaLanaFiltro = document.getElementById("bufandaLanaFiltro")
-// bufandaLanaFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 3 && i <= 4) ? "flex" : "none";
-//         }
-//     }
-// });
-// bufandaLanaFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+bufandaLanaFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 17; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i === 2) ? "flex" : "none";
+        }
+    }
+});
+bufandaLanaFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 
 var bolsoManoFiltro = document.getElementById("bolsoManoFiltro")
-// bolsoManoFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 5 && i <= 6) ? "flex" : "none";
-//         }
-//     }
-// });
-// bolsoManoFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+bolsoManoFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 17; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 3 && i <= 5) ? "flex" : "none";
+        }
+    }
+});
+bolsoManoFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 
 var mochilaFiltro = document.getElementById("mochilaFiltro")
-// mochilaFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 7 && i <= 9) ? "flex" : "none";
-//         }
-//     }
-// });
-// mochilaFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+mochilaFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 17; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 6 && i <= 8) ? "flex" : "none";
+        }
+    }
+});
+mochilaFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 
 var guanteFiltro = document.getElementById("guanteFiltro")
-// guanteFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 10 && i <= 11) ? "flex" : "none";
-//         }
-//     }
-// });
-// guanteFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+guanteFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 17; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 9 && i <= 11) ? "flex" : "none";
+        }
+    }
+});
+guanteFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 var guanteLanaFiltro = document.getElementById("guanteLanaFiltro")
+guanteLanaFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 17; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 12 && i <= 14) ? "flex" : "none";
+        }
+    }
+});
+guanteLanaFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
-var subheader4 = document.getElementById("subheader4")
+var RelojVestirFiltro = document.getElementById("relojVestirFiltro")
+RelojVestirFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 17; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 15 && i <= 17) ? "flex" : "none";
+        }
+    }
+});
+RelojVestirFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
+
+var subheader4 = document.getElementById("subheader5")
 subheader4.addEventListener("click", function() {
     for (let i = 1; i <= 17; i++) {
         const tarjeta = document.getElementById("carta" + i);
@@ -246,3 +270,6 @@ subheader4.addEventListener("click", function() {
         }
     }
 });
+subheader4.addEventListener("click",function(){
+    cartaCero.style.display = "flex"
+})

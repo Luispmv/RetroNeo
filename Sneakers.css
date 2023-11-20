@@ -8,8 +8,8 @@
 }
 header{
     width: 100%;
-    height: 100vh;
-    background-color: blueviolet;
+    height: 100px;
+    background-color: black;
     /* background-image: url("./img/Background\ CasualSection.svg"); */
     background-position: center;
     background-size: cover;
@@ -163,10 +163,6 @@ main{
 }
 
 @media(min-width:768px){
-    header{
-        background-color: blueviolet;
-        /* background-image: url(./img/BackgroundCasualBig.svg); */
-    }
     .Productos{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -200,7 +196,7 @@ main{
 }
 @media(min-width:1440px){
     header{
-        height: 70vh;
+        height: 100px;
     }
 }
 @media(min-width:2560px){
