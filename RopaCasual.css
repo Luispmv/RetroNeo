@@ -182,7 +182,7 @@ main{
     }
     .wrapper-subcategorias .subcategorias{
         height: -webkit-fill-available;
-        gap: 140px;
+        gap: 15px;
     }
     .Productos{
         width: 75%;
