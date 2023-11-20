@@ -36,23 +36,35 @@ subheader3.addEventListener("click", function(){
 
 //Creacion de nuestras cartas 
 var imagenes = [
-    "./img/CamisetaBasica2.svg",
-    "./img/CamisetaBasica3.svg",
-    "./img/CamisasMangaCorta1.svg",
-    "./img/CamisasMangaCorta2.svg",
-    "./img/CamisaDeportiva1.svg",
-    "./img/CamisaDeportiva2.svg",
-    "/img/Estampados1.svg",
-    "/img/Estampados2.svg",
-    "/img/Estampados3.svg",
-    "/img/Jeans1.svg",
-    "/img/Jeans2.svg",
-    "/img/Joggers1.svg",
-    "/img/formal1.svg",
-    "/img/formal2.svg",
-    "/img/formal3.svg",
-    "/img/tennis1.svg",
-    "./img/tennis2.svg"
+    "./img/NikeCasual2.png",
+    "./img/NikeCasual3.png",
+    "./img/NikeCasual4.png",
+    "./img/NikeCasual5.png",
+    "./img/NikeCasual6.png",
+    "/img/nikeRunning1.png",
+    "/img/nikeRunning2.png",
+    "/img/nikeRunning3.png",
+    "/img/nikeRunning4.png",
+    "/img/nikeRunning5.png",
+    "/img/nikeRunning6.png",
+    "/img/AdidasCasual1.png",
+    "/img/AdidasCasual2.png",
+    "/img/AdidasCasual3.png",
+    "/img/AdidasCasual4.png",
+    "/img/AdidasCasual5.png",
+    "/img/AdidasCasual6.png",
+    "./img/AdidasRunning1.png",
+    "./img/AdidasRunning2.png",
+    "./img/AdidasRunning3.png",
+    "./img/AdidasRunning4.png",
+    "./img/AdidasRunning5.png",
+    "./img/AdidasRunning6.png",
+    "./img/vans1.png",
+    "./img/vans2.png",
+    "./img/vans3.png",
+    "./img/vans4.png",
+    "./img/vans5.png",
+    "./img/vans6.png"
 ];
 
 
@@ -139,7 +151,7 @@ function crearCarta(imagenURL, nombreProducto, ancho, alto, precio, i) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    for (var i = 0; i < 17; i++) {
+    for (var i = 0; i < 30; i++) {
         var imagenURL = imagenes[i % imagenes.length];
         var nombreProducto = nombresProductos[i % nombresProductos.length];
         var ancho = anchos[i % anchos.length];
@@ -157,86 +169,89 @@ var cartaCero = document.getElementById("carta0")
 var tarjetas = {};
 
 document.addEventListener("DOMContentLoaded", function () {
-    for (var i = 1; i <= 17; i++) {
+    for (var i = 1; i <= 30; i++) {
         tarjetas["carta" + i] = document.getElementById("carta" + i);
     }
 });
 
 var casualNikeFiltro = document.getElementById("casualNikeFiltro")
-// casualNikeFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 1 && i <= 2) ? "flex" : "none";
-//         }
-//     }
-// });
-// casualNikeFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "flex"
-// })
+casualNikeFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 30; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 0 && i <= 5) ? "flex" : "none";
+        }
+    }
+});
+casualNikeFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "flex"
+})
 
 var casualNikeRunningFiltro = document.getElementById("casualNikeRunningFiltro")
-// casualNikeRunningFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 3 && i <= 4) ? "flex" : "none";
-//         }
-//     }
-// });
-// casualNikeRunningFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+casualNikeRunningFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 30; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 6 && i <= 12) ? "flex" : "none";
+        }
+    }
+});
+casualNikeRunningFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 
 var casualAdidasFiltro = document.getElementById("casualAdidasFiltro")
-// casualAdidasFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 5 && i <= 6) ? "flex" : "none";
-//         }
-//     }
-// });
-// casualAdidasFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+casualAdidasFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 30; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 13 && i <= 17) ? "flex" : "none";
+        }
+    }
+});
+casualAdidasFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 
-var casualRunningFiltro = document.getElementById("casualRunningFiltro ")
-// casualRunningFiltro .addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 7 && i <= 9) ? "flex" : "none";
-//         }
-//     }
-// });
-// casualRunningFiltro .addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+var casualRunningFiltro = document.getElementById("casualRunningFiltro")
+casualRunningFiltro .addEventListener("click", function() {
+    for (let i = 1; i <= 30; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 18 && i <= 23) ? "flex" : "none";
+        }
+    }
+});
+casualRunningFiltro .addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 
 var casualVansFiltro = document.getElementById("casualVansFiltro")
-// casualVansFiltro.addEventListener("click", function() {
-//     for (let i = 1; i <= 17; i++) {
-//         const tarjeta = document.getElementById("carta" + i);
-//         if (tarjeta) {
-//             tarjeta.style.display = (i >= 10 && i <= 11) ? "flex" : "none";
-//         }
-//     }
-// });
-// casualVansFiltro.addEventListener("click",function(){
-//     cartaCero.style.display = "none"
-// })
+casualVansFiltro.addEventListener("click", function() {
+    for (let i = 1; i <= 30; i++) {
+        const tarjeta = document.getElementById("carta" + i);
+        if (tarjeta) {
+            tarjeta.style.display = (i >= 24 && i <= 30) ? "flex" : "none";
+        }
+    }
+});
+casualVansFiltro.addEventListener("click",function(){
+    cartaCero.style.display = "none"
+})
 
 
 var subheader4 = document.getElementById("subheader4")
 subheader4.addEventListener("click", function() {
-    for (let i = 1; i <= 17; i++) {
+    for (let i = 1; i <= 30; i++) {
         const tarjeta = document.getElementById("carta" + i);
         if (tarjeta) {
-            tarjeta.style.display = (i >= 0 && i <= 17) ? "flex" : "none";
+            tarjeta.style.display = (i >= 0 && i <= 30) ? "flex" : "none";
         }
     }
 });
+subheader4.addEventListener("click",function(){
+    cartaCero.style.display = "flex"
+})

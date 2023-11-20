@@ -192,6 +192,7 @@ main{
         height: calc(130vh - 30px);
         overflow: auto;
         place-items: flex-start;
+        place-content: baseline;
     }
     .Productos::-webkit-scrollbar {
         display: none;
@@ -205,9 +206,6 @@ main{
 @media(min-width:2560px){
     .wrapper-subcategorias .subcategorias{
         font-size: 2.5rem;
-    }
-    .Productos{
-        row-gap: 150px;
     }
     .Productos .card{
         width: 70%;

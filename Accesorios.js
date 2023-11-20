@@ -48,23 +48,23 @@ subheader4.addEventListener("click", function(){
 
 //Creacion de nuestras cartas 
 var imagenes = [
-    "./img/CamisetaBasica2.svg",
-    "./img/CamisetaBasica3.svg",
-    "./img/CamisasMangaCorta1.svg",
-    "./img/CamisasMangaCorta2.svg",
-    "./img/CamisaDeportiva1.svg",
-    "./img/CamisaDeportiva2.svg",
-    "/img/Estampados1.svg",
-    "/img/Estampados2.svg",
-    "/img/Estampados3.svg",
-    "/img/Jeans1.svg",
-    "/img/Jeans2.svg",
-    "/img/Joggers1.svg",
-    "/img/formal1.svg",
-    "/img/formal2.svg",
-    "/img/formal3.svg",
-    "/img/tennis1.svg",
-    "./img/tennis2.svg"
+    "./img/BufandaClasica2.svg",
+    "./img/BufandaLana1.svg",
+    "./img/bolso1.svg",
+    "./img/bolsa2.svg",
+    "./img/bolsa3.svg",
+    "/img/Mochila1.svg",
+    "/img/mochila2.png",
+    "/img/Mochila3.svg",
+    "/img/Guantes1.svg",
+    "/img/Guantes2.svg",
+    "/img/Guantes3.png",
+    "/img/GuanteLana1.png",
+    "/img/GuanteLana2.png",
+    "/img/GuanteLana3.png",
+    "/img/RelojVestir1.png",
+    "./img/RelojVestir2.png",
+    "./img/RelojVestir3.png"
 ];
 
 
@@ -89,14 +89,7 @@ var nombresProductos = [
     "Producto 17",
     "Producto 18",
     "Producto 19",
-    "Producto 20",
-    "Producto 21",
-    "Producto 22",
-    "Producto 23",
-    "Producto 24",
-    "Producto 25",
-    "Producto 26",
-    "Producto 27",
+    "Producto 20"
 ];
 var precios = [
     "$100",
