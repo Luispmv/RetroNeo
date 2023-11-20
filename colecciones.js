@@ -1,18 +1,30 @@
 var dropdownCasual = document.getElementById("dropdown-casual")
+dropdownCasual.style.width = "1rem"
+
 var wrapperCasual = document.getElementById("wrapperCasual")
 var etiquetah1 = document.getElementById("H1")
 
 var dropwdownDeportivo = document.getElementById("dropdown-deportiva")
+dropwdownDeportivo.style.width = "1rem"
 var wrapperDeportivo = document.getElementById("wrapperDeportivo")
 var etiquetah12 = document.getElementById("H2")
 
 var dropdownSneakers = document.getElementById("dropdown-sneakers")
+dropdownSneakers.style.width = "1rem"
 var wrapperSneakers = document.getElementById("wrapperSneakers")
 var etiquetah13 = document.getElementById("H3")
 
 var dropdownAccesorios = document.getElementById("dropdown-accesorios")
+dropdownAccesorios.style.width = "1rem"
 var wrapperAccesorios = document.getElementById("wrapperAccesorios")
 var etiquetah14 = document.getElementById("H4")
+
+if(window.matchMedia = "2560px"){
+    dropdownCasual.style.width = "2rem"
+    dropwdownDeportivo.style.width = "2rem"
+    dropdownSneakers.style.width = "2rem"
+    dropdownAccesorios.style.width = "2rem"
+}
 
 dropdownCasual.addEventListener("click", function(){
     wrapperCasual.style.display = "flex"
