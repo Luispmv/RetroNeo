@@ -181,6 +181,83 @@ button span{
     color: #7066E0;   
 }
 
+.seccion-relacionados{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin-bottom: 2rem;
+}
+.seccion-relacionados .encabezado{
+    font-family: var(--fuenteBold);
+    color: #EB9ECA;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.seccion-relacionados .carrusel{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card{
+    width: 90%;
+    border: solid;
+    border-color: #AD4881 !important;
+    place-self: center;
+}
+.card:hover{
+    background-color: black;
+}
+.card .imgp{
+    width: 90%;
+    place-self: center;
+}
+.card .Productoinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card .Productoinfo .headersProducto{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    width: 90%;
+    align-self: center;
+    align-items: center;
+}
+.card .Productoinfo .headersProducto p{
+    font-family: var(--fuenteBold);
+    color: #AD4881;
+    margin: 0;
+}
+.card .Productoinfo .headersProducto button{
+    border: none;
+    color: white;
+    background-color: black;
+    width: 50px;
+}
+.card .Productoinfo .headerProducto2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: center;
+    width: 90%;
+}
+.card .Productoinfo .headerProducto2 p{
+    color: #AD4881;
+    font-family: var(--fuenteBold);
+}
+.card #ver{
+    width: 90%;
+    height: 50px;
+    border: none;
+    background-color: #AD4881;
+    color: white;
+    place-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 @media(min-width:768px){
     .carousel{
         height: 500px;
@@ -211,16 +288,28 @@ button span{
         justify-content: center;
         gap: 50px;
     }
+    .seccion-relacionados .carrusel{
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+    .card .imgp{
+        height: 400px;
+    }
 }
 
 @media(min-width:1024px){
     body{
         display: flex;
+        flex-direction: column;
+    }
+    .wrapper-seccioncompleta{
+        display: flex;
         flex-direction: row;
     }
     .carousel{
         width: 50%;
-        height: 100vh;
+        /* height: 100vh; */
+        height: auto;
     }
     .informacion-producto{
         display: grid;
@@ -228,11 +317,33 @@ button span{
         gap: 30px;
         width: 50%;
         height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .descripcion-producto p {
         font-size: 2rem;
     }
     .usuario-opciones{
         gap: 20px;
+    }
+    .seccion-relacionados .encabezado{
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    .carrusel{
+        width: 100%;
+        display: flex !important;
+        flex-direction: row !important;
+        padding: 1rem;
+    }
+    .carrusel .card{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card .imgp{
+        height: 150px;
     }
 }
