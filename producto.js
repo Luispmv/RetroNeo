@@ -11,6 +11,7 @@ var camisaThree = document.getElementById("camisa-view-three")
 var camisaFour = document.getElementById("camisa-view-four")
 
 
+
 // Asegúrate de que backgroundProducts contenga al menos un elemento antes de intentar acceder a sus propiedades
 if (backgroundProducts.length > 0) {
     var backgroundProduct = backgroundProducts[0]; // Tomamos el primer elemento de la colección
