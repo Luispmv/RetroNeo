@@ -51,7 +51,7 @@ var imagenes = [
     "./img/BufandaClasica2.svg",
     "./img/BufandaLana1.svg",
     "./img/bolso1.svg",
-    "./img/bolsa2.svg",
+    "./img/Bolsa2.svg",
     "./img/bolsa3.svg",
     "./img/Mochila1.svg",
     "./img/mochila2.png",
@@ -137,7 +137,7 @@ function crearCarta(imagenURL, nombreProducto, ancho, alto, precio, i) {
                 <p>${precio}</p>
             </div>
         </div>
-        <a href="#">Ver Producto</a>
+        <a href="./producto.html">Ver Producto</a>
     `;
 
     contenedor.appendChild(carta);

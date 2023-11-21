@@ -130,7 +130,7 @@ function crearCarta(imagenURL, nombreProducto, ancho, alto, precio, i) {
                 <p>${precio}</p>
             </div>
         </div>
-        <a href="#">Ver Producto</a>
+        <a href="./producto.html">Ver Producto</a>
     `;
 
     contenedor.appendChild(carta);
