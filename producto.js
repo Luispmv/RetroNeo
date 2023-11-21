@@ -10,7 +10,18 @@ var camisatwo = document.getElementById("camisa-view-two")
 var camisaThree = document.getElementById("camisa-view-three")
 var camisaFour = document.getElementById("camisa-view-four")
 
-
+var botonCompra = document.getElementById("boton-compra")
+botonCompra.addEventListener("click", function(){
+    Swal.fire({
+        title: 'Agregado al carrito exitosamente',
+        icon: 'success',
+        confirmButtonText: 'Cool',
+        customClass:{
+            popup: "popup",
+            confirmButton : "botonConfirmacion"
+        }
+    })
+})
 
 // Asegúrate de que backgroundProducts contenga al menos un elemento antes de intentar acceder a sus propiedades
 if (backgroundProducts.length > 0) {

@@ -176,6 +176,10 @@ button span{
     font-family: var(--fuente);
     height: 70px;
 }
+.popup{
+    width: auto !important;
+    color: #7066E0;   
+}
 
 @media(min-width:768px){
     .carousel{
@@ -223,6 +227,7 @@ button span{
         place-content: center;
         gap: 30px;
         width: 50%;
+        height: auto;
     }
     .descripcion-producto p {
         font-size: 2rem;
