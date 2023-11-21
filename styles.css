@@ -3,6 +3,7 @@
 *{
     --fuente:'Anybody', sans-serif;
     --fuenteBold: 'Anybody', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background: var(--Gradient-Purple, linear-gradient(180deg, #AD4881 53.67%, #EB9ECA 99.94%));
