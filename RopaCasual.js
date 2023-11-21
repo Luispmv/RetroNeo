@@ -40,7 +40,7 @@ var imagenes = [
     "./img/CamisasMangaCorta2.svg",
     "./img/CamisaDeportiva1.svg",
     "./img/CamisaDeportiva2.svg",
-    "/img/Estampados1.svg",
+    "/img/Estamp1.svg",
     "/img/Estampados2.svg",
     "/img/Estampados3.svg",
     "/img/Jeans1.svg",
