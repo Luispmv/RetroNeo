@@ -308,12 +308,13 @@ button span{
     }
     .carousel{
         width: 50%;
-        /* height: 100vh; */
-        height: auto;
+        height: 100vh;
+        /* height: auto; */
     }
     .informacion-producto{
         display: grid;
-        place-content: center;
+        place-content: end;
+        justify-content: center;
         gap: 30px;
         width: 50%;
         height: auto;
@@ -345,5 +346,10 @@ button span{
     }
     .card .imgp{
         height: 150px;
+    }
+}
+@media(min-width:1440px){
+    .carousel{
+        height: 70vh;
     }
 }
