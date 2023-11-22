@@ -94,7 +94,7 @@ var precios = [
 ];
 
 var anchos = [150];
-var altos = [150];
+var altos = [350];
 
 function crearCarta(imagenURL, nombreProducto, ancho, alto, precio, i) {
     var contenedor = document.getElementById("contenedor");
