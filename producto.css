@@ -357,11 +357,46 @@ button span{
     }
     .informacion-producto{
         justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        place-content: end;
     }
     .info{
-        width: 90%;
+        width: 100%;
+        gap: 40px;
+    }
+    .info-usuario h1{
+        font-size: 5rem;
+    }
+    .info-usuario button{
+        font-size: 3rem;
+        height: auto;
+    }
+    .descripcion-producto p{
+        font-size: 3rem;
+    }
+    .descripcion-producto button{
+        font-size: 3rem;
+        height: auto;
     }
     .usuario-opciones{
-        width: 90%;
+        width: 100%;
+        gap: 40px;
+    }
+    .color-botons .botonColor{
+        width: 60px;
+        height: 60px;
+    }
+    .tallas{
+        width: 70%;
+    }
+    .tallas button{
+        width: 90px;
+        height: 90px;
+    }
+    #boton-compra{
+        height: 120px;
+        font-size: 2.5rem;
     }
 }
