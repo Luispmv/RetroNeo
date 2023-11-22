@@ -71,25 +71,23 @@ var imagenes = [
 
 
 var nombresProductos = [
-    "Producto 2",
-    "Producto 3",
-    "Producto 4",
-    "Producto 5",
-    "Producto 6",
-    "Producto 7",
-    "Producto 8",
-    "Producto 9",
-    "Producto 10",
-    "Producto 11",
-    "Producto 12",
-    "Producto 13",
-    "Producto 14",
-    "Producto 15",
-    "Producto 16",
-    "Producto 17",
-    "Producto 18",
-    "Producto 19",
-    "Producto 20"
+    "Bufanda Az",
+    "Lana Azul",
+    "Cafe cuadrado",
+    "Bolso Negro",
+    "Bolso Azul C",
+    "JeanSport",
+    "SportPack",
+    "BBPack",
+    "Cafes CG",
+    "Cuero Negro",
+    "Cuero Blanco",
+    "Cobalto Gloves",
+    "Neblina Gloves",
+    "Rubi Gloves",
+    "Casio CC2",
+    "Casio CC7",
+    "Casio 345"
 ];
 var precios = [
     "$100",
