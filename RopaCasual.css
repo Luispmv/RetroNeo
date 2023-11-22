@@ -173,7 +173,7 @@ main{
         display: flex;
     }
     .wrapper-subcategorias{
-        width: 25%;
+        width: 20%;
         /* height: fit-content; */
         height: 100vh;
     }
@@ -182,7 +182,7 @@ main{
         gap: 15px;
     }
     .Productos{
-        width: 75%;
+        width: 80%;
         grid-template-columns: repeat(3,1fr);
         height: calc(130vh - 30px);
         overflow: auto;
